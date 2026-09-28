@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Institutional Financial Newspaper HTML Publisher
-Converts equity research markdown dossiers into standalone, minimalist HTML reports
-styled with traditional financial newspaper typography and aesthetics.
+Modern Financial Times (FT.com) Style HTML Publisher
+Converts equity research markdown dossiers into standalone, modern HTML reports
+styled with the iconic Financial Times (FT.com) design system, typography, and palette.
 """
 
 import sys
@@ -25,14 +25,14 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
     lines = md_text.splitlines()
     title = "Institutional Equity Research Report"
     ticker = ""
-    date_str = ""
-    for line in lines[:10]:
+    date_str = "September 29, 2026"
+    for line in lines[:12]:
         if line.startswith("# "):
             title = line.replace("# ", "").strip()
         elif "Target Ticker" in line or "Ticker" in line:
-            ticker = line.strip().replace("**", "")
+            ticker = line.strip().replace("**", "").replace("Target Ticker: ", "")
         elif "Research Date" in line:
-            date_str = line.strip().replace("**", "")
+            date_str = line.strip().replace("**", "").replace("Research Date: ", "")
 
     # Convert Markdown to HTML
     body_html = markdown.markdown(
@@ -40,38 +40,43 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
         extensions=["tables", "fenced_code", "nl2br", "toc"]
     )
 
-    # Enhance blockquotes and alerts
+    # Enhance blockquotes and alerts with FT Lex / Forensic badges
     body_html = re.sub(
         r"<blockquote>\s*<p>\s*<strong>Key Forensic Insight</strong>:",
-        r'<blockquote class="forensic-insight"><p><span class="insight-badge">FORENSIC AUDIT INSIGHT</span>',
+        r'<blockquote class="ft-lex-note"><p><span class="ft-kicker-badge">LEX FORENSIC AUDIT</span>',
         body_html
     )
 
-    newspaper_template = f"""<!DOCTYPE html>
+    ft_html_template = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{title}</title>
+    <title>{title} | Financial Times Research</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,400;1,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
         :root {{
-            --paper-bg: #fdfcf7;
-            --paper-surface: #f7f5ed;
-            --paper-border: #ded9cc;
-            --paper-border-dark: #222222;
-            --ink-black: #141414;
-            --ink-charcoal: #2a2a2a;
-            --ink-muted: #59554d;
-            --ink-faint: #807a70;
-            --accent-crimson: #8b1d1d;
-            --accent-green: #1a6b35;
-            --accent-navy: #13294b;
-            --font-serif-headline: "Newsreader", "Georgia", "Times New Roman", serif;
-            --font-serif-body: "Newsreader", "Georgia", serif;
-            --font-display-title: "Cinzel", "Newsreader", "Times New Roman", serif;
+            /* FT.com Official Origami Design Palette */
+            --ft-paper: #fff1e5;            /* Iconic FT Pink / Salmon paper */
+            --ft-paper-dark: #f2dfce;       /* Darker salmon for headers & hover */
+            --ft-paper-card: #fff7ef;       /* Card surface */
+            --ft-border: #cec6b9;           /* Hairline card & divider border */
+            --ft-border-dark: #0d0d0d;      /* Solid black rule */
+            --ft-claret: #990f3d;           /* Iconic FT Claret / Burgundy */
+            --ft-teal: #0d7680;             /* FT Teal for secondary data & links */
+            --ft-slate: #262a33;            /* Dark Slate */
+            --ft-ink: #0d0d0d;              /* Primary text black */
+            --ft-body: #333333;             /* High-legibility body dark grey */
+            --ft-muted: #666059;            /* Secondary metadata grey */
+            --ft-green: #00703c;            /* Positive financial metric */
+            --ft-red: #cc0000;              /* Negative variance / warning */
+            
+            /* Typography */
+            --font-headline: "Playfair Display", "Georgia", "Times New Roman", serif;
+            --font-body: "Georgia", "Charter", serif;
+            --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
             --font-mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
         }}
 
@@ -82,120 +87,139 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
         }}
 
         body {{
-            background-color: #ede9df;
-            color: var(--ink-charcoal);
-            font-family: var(--font-serif-body);
-            font-size: 17px;
-            line-height: 1.65;
+            background-color: #f7e6d7;
+            color: var(--ft-body);
+            font-family: var(--font-body);
+            font-size: 17.5px;
+            line-height: 1.68;
             padding: 24px 12px;
             -webkit-font-smoothing: antialiased;
         }}
 
-        .sheet {{
-            max-width: 1040px;
+        /* Broadsheet Container */
+        .ft-container {{
+            max-width: 1060px;
             margin: 0 auto;
-            background-color: var(--paper-bg);
-            border: 1px solid #d4cebe;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
-            padding: 48px 56px;
+            background-color: var(--ft-paper);
+            border: 1px solid var(--ft-border);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08), 0 1px 4px rgba(0, 0, 0, 0.04);
+            padding: 40px 60px;
         }}
 
-        /* Newspaper Masthead */
-        .masthead {{
-            text-align: center;
-            border-bottom: 3px double var(--paper-border-dark);
-            padding-bottom: 16px;
-            margin-bottom: 24px;
+        /* Modern FT Header & Masthead */
+        .ft-header {{
+            border-bottom: 2px solid var(--ft-border-dark);
+            padding-bottom: 18px;
+            margin-bottom: 28px;
         }}
 
-        .masthead-top {{
+        .ft-top-ticker {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            font-family: var(--font-mono);
-            font-size: 11px;
-            letter-spacing: 1.5px;
+            font-family: var(--font-sans);
+            font-size: 11.5px;
+            font-weight: 600;
+            letter-spacing: 1px;
             text-transform: uppercase;
-            color: var(--ink-muted);
-            border-bottom: 1px solid var(--paper-border);
-            padding-bottom: 6px;
-            margin-bottom: 12px;
+            color: var(--ft-claret);
+            border-bottom: 1px solid var(--ft-border);
+            padding-bottom: 8px;
+            margin-bottom: 16px;
         }}
 
-        .masthead-banner {{
-            font-family: var(--font-display-title);
-            font-size: 34px;
-            letter-spacing: 3px;
+        .ft-masthead-title {{
+            font-family: var(--font-headline);
+            font-size: 42px;
             font-weight: 900;
-            color: var(--ink-black);
+            letter-spacing: 1px;
+            color: var(--ft-ink);
+            text-align: center;
+            margin: 4px 0 6px 0;
+            line-height: 1.05;
+        }}
+
+        .ft-masthead-subline {{
+            text-align: center;
+            font-family: var(--font-sans);
+            font-size: 12px;
+            font-weight: 500;
+            letter-spacing: 2px;
             text-transform: uppercase;
-            margin: 8px 0 4px 0;
-            line-height: 1.1;
+            color: var(--ft-muted);
+            margin-bottom: 14px;
         }}
 
-        .masthead-tagline {{
-            font-style: italic;
-            font-size: 14px;
-            color: var(--ink-muted);
-            margin-bottom: 10px;
-        }}
-
-        .masthead-meta {{
+        .ft-nav-strip {{
             display: flex;
             justify-content: space-between;
-            border-top: 1px solid var(--paper-border-dark);
-            border-bottom: 1px solid var(--paper-border-dark);
-            padding: 6px 4px;
-            font-family: var(--font-mono);
-            font-size: 11.5px;
+            border-top: 1px solid var(--ft-border-dark);
+            border-bottom: 1px solid var(--ft-border-dark);
+            padding: 8px 6px;
+            font-family: var(--font-sans);
+            font-size: 12px;
+            font-weight: 600;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--ink-charcoal);
+            letter-spacing: 1.2px;
+            color: var(--ft-ink);
+            background-color: rgba(242, 223, 206, 0.4);
         }}
 
-        /* Article Typography */
-        h1 {{
-            font-family: var(--font-serif-headline);
-            font-size: 28px;
+        /* Kicker & Editorial Headings */
+        .ft-kicker {{
+            display: inline-block;
+            font-family: var(--font-sans);
+            font-size: 13px;
             font-weight: 700;
-            color: var(--ink-black);
-            line-height: 1.25;
-            margin: 20px 0 16px 0;
-            letter-spacing: -0.2px;
+            color: var(--ft-claret);
+            text-transform: uppercase;
+            letter-spacing: 1.2px;
+            margin-bottom: 6px;
+        }}
+
+        h1 {{
+            font-family: var(--font-headline);
+            font-size: 32px;
+            font-weight: 800;
+            color: var(--ft-ink);
+            line-height: 1.2;
+            margin: 24px 0 16px 0;
+            letter-spacing: -0.4px;
         }}
 
         h2 {{
-            font-family: var(--font-serif-headline);
-            font-size: 22px;
+            font-family: var(--font-headline);
+            font-size: 24px;
             font-weight: 700;
-            color: var(--ink-black);
-            border-top: 2px solid var(--paper-border-dark);
-            border-bottom: 1px solid var(--paper-border);
-            padding: 10px 0 6px 0;
-            margin: 36px 0 16px 0;
-            letter-spacing: 0.2px;
-            text-transform: uppercase;
+            color: var(--ft-ink);
+            border-top: 2px solid var(--ft-border-dark);
+            border-bottom: 1px solid var(--ft-border);
+            padding: 12px 0 8px 0;
+            margin: 40px 0 18px 0;
+            letter-spacing: -0.2px;
         }}
 
         h3 {{
-            font-family: var(--font-serif-headline);
-            font-size: 18px;
-            font-weight: 600;
-            color: var(--accent-navy);
-            margin: 22px 0 10px 0;
-            border-bottom: 1px dashed var(--paper-border);
+            font-family: var(--font-sans);
+            font-size: 17px;
+            font-weight: 700;
+            color: var(--ft-claret);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            margin: 26px 0 10px 0;
+            border-bottom: 1px dashed var(--ft-border);
             padding-bottom: 4px;
         }}
 
         p {{
-            margin-bottom: 14px;
+            margin-bottom: 16px;
             text-align: justify;
             text-justify: inter-word;
         }}
 
         strong {{
-            color: var(--ink-black);
-            font-weight: 600;
+            color: var(--ft-ink);
+            font-weight: 700;
         }}
 
         em {{
@@ -204,103 +228,125 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
 
         hr {{
             border: none;
-            border-top: 1px solid var(--paper-border);
-            margin: 28px 0;
+            border-top: 1px solid var(--ft-border);
+            margin: 32px 0;
         }}
 
-        /* Financial Tables */
+        /* FT Modern Tables */
         table {{
             width: 100%;
             border-collapse: collapse;
             font-family: var(--font-mono);
             font-size: 13px;
             line-height: 1.45;
-            margin: 22px 0;
-            background: var(--paper-surface);
-            border-top: 2px solid var(--paper-border-dark);
-            border-bottom: 2px solid var(--paper-border-dark);
+            margin: 24px 0;
+            background-color: var(--ft-paper-card);
+            border-top: 2px solid var(--ft-border-dark);
+            border-bottom: 2px solid var(--ft-border-dark);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
         }}
 
         th {{
-            background-color: #ede9df;
-            color: var(--ink-black);
-            font-weight: 600;
+            background-color: var(--ft-paper-dark);
+            color: var(--ft-ink);
+            font-family: var(--font-sans);
+            font-weight: 700;
             text-align: left;
-            padding: 8px 10px;
-            border-bottom: 1px solid var(--paper-border-dark);
+            padding: 10px 12px;
+            border-bottom: 1px solid var(--ft-border-dark);
             text-transform: uppercase;
-            font-size: 11.5px;
-            letter-spacing: 0.5px;
+            font-size: 11px;
+            letter-spacing: 0.8px;
         }}
 
         td {{
-            padding: 7px 10px;
-            border-bottom: 1px solid #e3decb;
-            color: var(--ink-charcoal);
+            padding: 8px 12px;
+            border-bottom: 1px solid var(--ft-border);
+            color: var(--ft-ink);
+            font-variant-numeric: tabular-nums;
         }}
 
         tr:nth-child(even) td {{
-            background-color: rgba(0, 0, 0, 0.015);
+            background-color: rgba(242, 223, 206, 0.25);
         }}
 
         tr:hover td {{
-            background-color: rgba(139, 29, 29, 0.04);
+            background-color: rgba(153, 15, 61, 0.06);
         }}
 
-        /* Code Blocks & Terminal Outputs */
+        /* Code Blocks & Terminal Snippets */
         pre {{
-            background-color: var(--paper-surface);
-            border: 1px solid var(--paper-border);
-            border-left: 3px solid var(--accent-navy);
+            background-color: #f7e6d7;
+            border: 1px solid var(--ft-border);
+            border-left: 4px solid var(--ft-claret);
             font-family: var(--font-mono);
             font-size: 12.5px;
             line-height: 1.5;
-            padding: 14px 18px;
-            margin: 18px 0;
+            padding: 16px 20px;
+            margin: 22px 0;
             overflow-x: auto;
-            color: var(--ink-charcoal);
+            color: var(--ft-ink);
+            box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.04);
         }}
 
         code {{
             font-family: var(--font-mono);
             font-size: 13px;
-            background-color: #efece3;
-            padding: 1px 4px;
+            background-color: rgba(242, 223, 206, 0.8);
+            padding: 2px 5px;
             border-radius: 2px;
+            color: var(--ft-ink);
         }}
 
-        /* Editorial Callout & Blockquotes */
-        blockquote {{
-            background-color: var(--paper-surface);
-            border-left: 3px solid var(--accent-crimson);
-            padding: 14px 20px;
-            margin: 20px 0;
+        /* FT Lex Callout / Pull Quotes */
+        blockquote, .ft-lex-note {{
+            background-color: var(--ft-paper-card);
+            border-left: 4px solid var(--ft-claret);
+            border-top: 1px solid var(--ft-border);
+            border-right: 1px solid var(--ft-border);
+            border-bottom: 1px solid var(--ft-border);
+            padding: 16px 22px;
+            margin: 24px 0;
             font-style: italic;
-            color: var(--ink-charcoal);
+            color: var(--ft-ink);
         }}
 
-        .insight-badge {{
+        .ft-kicker-badge {{
             display: inline-block;
-            background-color: var(--accent-crimson);
+            background-color: var(--ft-claret);
             color: #ffffff;
-            font-family: var(--font-mono);
-            font-size: 10px;
-            font-weight: 600;
-            letter-spacing: 1px;
-            padding: 2px 6px;
+            font-family: var(--font-sans);
+            font-size: 10.5px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            padding: 3px 8px;
             text-transform: uppercase;
             font-style: normal;
-            margin-right: 8px;
+            margin-right: 10px;
             vertical-align: middle;
+            border-radius: 1px;
         }}
 
         /* Lists */
         ul, ol {{
-            margin: 14px 0 18px 26px;
+            margin: 16px 0 20px 28px;
         }}
 
         li {{
-            margin-bottom: 6px;
+            margin-bottom: 8px;
+        }}
+
+        /* Links */
+        a {{
+            color: var(--ft-teal);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 2px;
+            transition: color 0.15s ease;
+        }}
+
+        a:hover {{
+            color: var(--ft-claret);
         }}
 
         /* Print Styling */
@@ -310,11 +356,18 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
                 color: #000000;
                 padding: 0;
             }}
-            .sheet {{
+            .ft-container {{
                 box-shadow: none;
                 border: none;
                 padding: 0;
                 max-width: 100%;
+                background: #ffffff;
+            }}
+            table {{
+                background: #ffffff;
+            }}
+            th {{
+                background: #f0f0f0;
             }}
             a {{
                 color: #000000;
@@ -326,50 +379,50 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
         @media (max-width: 768px) {{
             body {{
                 padding: 8px 4px;
-                font-size: 15.5px;
+                font-size: 16px;
             }}
-            .sheet {{
+            .ft-container {{
                 padding: 24px 16px;
             }}
-            .masthead-banner {{
-                font-size: 24px;
+            .ft-masthead-title {{
+                font-size: 28px;
             }}
-            .masthead-top, .masthead-meta {{
+            .ft-top-ticker, .ft-nav-strip {{
                 flex-direction: column;
-                gap: 4px;
+                gap: 6px;
                 text-align: center;
             }}
             table {{
                 display: block;
                 overflow-x: auto;
-                font-size: 11.5px;
+                font-size: 12px;
             }}
         }}
     </style>
 </head>
 <body>
-    <article class="sheet">
-        <header class="masthead">
-            <div class="masthead-top">
-                <span>The Institutional Financial Chronicle</span>
-                <span>Forensic Due Diligence & Valuation Dispatch</span>
-                <span>Confidential Research</span>
+    <article class="ft-container">
+        <header class="ft-header">
+            <div class="ft-top-ticker">
+                <span>FT.COM / COMPANIES & MARKETS</span>
+                <span>GLOBAL INSTITUTIONAL RESEARCH</span>
+                <span>SPECIAL FORENSIC DISPATCH</span>
             </div>
-            <div class="masthead-banner">Financial Research Dispatch</div>
-            <div class="masthead-tagline">“In the short run the market is a voting machine, but in the long run it is a weighing machine.” — Benjamin Graham</div>
-            <div class="masthead-meta">
+            <div class="ft-masthead-title">FINANCIAL TIMES</div>
+            <div class="ft-masthead-subline">Without Fear and Without Favour • Equity Research & Forensic Audit</div>
+            <div class="ft-nav-strip">
                 <span>{ticker}</span>
-                <span>Broadsheet Edition</span>
+                <span>INTRINSIC VALUATION & DILIGENCE</span>
                 <span>{date_str}</span>
             </div>
         </header>
 
-        <main class="article-content">
+        <main class="ft-article-content">
             {body_html}
         </main>
 
-        <footer style="margin-top: 48px; padding-top: 16px; border-top: 2px solid var(--paper-border-dark); text-align: center; font-family: var(--font-mono); font-size: 11px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 1px;">
-            Published via Institutional Equity Research Knowledge Base • Antigravity Autonomous Agentic Suite
+        <footer style="margin-top: 48px; padding-top: 18px; border-top: 2px solid var(--ft-border-dark); text-align: center; font-family: var(--font-sans); font-size: 11px; font-weight: 600; color: var(--ft-muted); text-transform: uppercase; letter-spacing: 1.5px;">
+            Published via Financial Times Design Framework • Institutional Equity Research Suite • Antigravity Autonomous Systems
         </footer>
     </article>
 </body>
@@ -377,9 +430,9 @@ def convert_md_to_newspaper_html(md_path: str, html_path: str = None):
 """
 
     with open(html_path, "w", encoding="utf-8") as f:
-        f.write(newspaper_template)
+        f.write(ft_html_template)
 
-    print(f"Successfully generated financial newspaper HTML: {html_path}")
+    print(f"Successfully generated modern FT.com style HTML: {html_path}")
     return True
 
 if __name__ == "__main__":

@@ -80,12 +80,14 @@ Every analysis must include an explicit **3-Scenario Financial Projection Model*
   - Deducting a 20% to 35% margin of safety from Fair Value based on business predictability to define the exact **Accumulation / Entry Price Band**.
 - **Clear Actionable Verdict**: Conviction Buy, Neutral / Watchlist, or Avoid / High Risk.
 
-### 9. Financial Newspaper HTML Publishing (Executive Broadsheet Edition)
+### 9. Modern Financial Times (FT.com) Style HTML Publishing
 - Immediately following the generation of the Markdown report (`COMPANY_EQUITY_RESEARCH_REPORT.md`), compile an accompanying standalone HTML publication (`COMPANY_EQUITY_RESEARCH_REPORT.html`).
-- **Styling Standards**:
-  - Traditional financial newsprint paper background (`#fdfcf7` canvas with `#ede9df` frame).
-  - Editorial serif headlines (`Newsreader`, `Georgia`, `Cinzel`) and tabular monospaced financial tables (`JetBrains Mono`, `SF Mono`).
-  - Broad-sheet masthead with double-rule header, date line, ticker tape / telemetry strip, and forensic callouts.
+- **Styling Standards (FT.com Origami Framework)**:
+  - Iconic FT Pink/Salmon paper background (`#fff1e5` canvas with `#f7e6d7` outer frame and `#fff7ef` card surface).
+  - High-contrast editorial serif headlines (`Playfair Display`, `Georgia`) and modern geometric sans kickers (`Inter`).
+  - FT Claret (`#990f3d`) and FT Teal (`#0d7680`) accents for kickers, category tags, and valuation calls.
+  - Tabular monospaced financial tables (`JetBrains Mono`, `SF Mono`) with `font-variant-numeric: tabular-nums`.
+  - FT Lex Column styled callouts with `LEX FORENSIC AUDIT` badges.
   - Zero-dependency, responsive, and print-ready CSS (`@media print`).
 - **Command**:
   ```bash
