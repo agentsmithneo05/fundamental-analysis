@@ -1,8 +1,6 @@
-# Fundamental Analysis & Equity Research
+# Fundamental Analysis & Financial Research Knowledge Base
 
-An institutional-grade repository dedicated to fundamental equity research, corporate valuation, financial statement forensics, and analyst mental models. 
-
-Each session is curated from the perspective of a **Senior Research Analyst with 32 years of institutional asset management experience**, deconstructing real-world market mechanics, canonical literature (*Graham & Dodd, Fisher, Mauboussin, Klarman, Schilit, Penman, Porter, Dorsey, Baid, Damodaran, Munger, Marks*), and Dalal Street / Wall Street due diligence protocols.
+An institutional-grade knowledge repository covering **Equity Research** and **Mutual Fund Analysis**, deconstructed from the foundational courses by Parth Verma (*The Valuation School*).
 
 ---
 
@@ -12,9 +10,36 @@ Each session is curated from the perspective of a **Senior Research Analyst with
 
 ---
 
-## 📚 Complete Curriculum Index (49 Sessions)
+## 📑 Curated Playlists
 
-| # | Session Topic | Link to Research Dossier |
+### 1. [Mutual Fund Analysis — Full Course (16 Sessions)](mutual_fund_analysis/)
+*Focuses on fund mechanics, SEBI market categorization, debt fund duration, XIRR vs CAGR, risk ratios (Sharpe, Treynor, Sortino), expense ratio math, and live portfolio teardowns.*
+
+| # | Session Topic | Link to Dossier |
+| :-: | :--- | :--- |
+| **01** | Fundamentals of Mutual Funds, Legal Structure & NAV Mechanics | [session_01_what_is_mutual_funds](mutual_fund_analysis/session_01_what_is_mutual_funds/README.md) |
+| **02** | Structural Classification & Broad Asset Categories | [session_02_types_of_mutual_funds_part_1](mutual_fund_analysis/session_02_types_of_mutual_funds_part_1/README.md) |
+| **03** | Debt Mutual Funds Architecture & Fixed Income Risk Mechanics | [session_03_types_of_mutual_funds_part_2](mutual_fund_analysis/session_03_types_of_mutual_funds_part_2/README.md) |
+| **04** | Market Cap Definitions & Core Equity Categories (Large, Mid & Small Cap) | [session_04_equity_mutual_funds_part_1](mutual_fund_analysis/session_04_equity_mutual_funds_part_1/README.md) |
+| **05** | Multi Cap, Flexi Cap, Focused & ELSS Tax-Saving Schemes | [session_05_equity_mutual_funds_part_2](mutual_fund_analysis/session_05_equity_mutual_funds_part_2/README.md) |
+| **06** | Thematic, Sectoral, Value & Contra Mutual Funds | [session_06_equity_mutual_funds_part_3](mutual_fund_analysis/session_06_equity_mutual_funds_part_3/README.md) |
+| **07** | Absolute Return, Simple Annualized & CAGR Mechanics | [session_07_measuring_returns_part_1](mutual_fund_analysis/session_07_measuring_returns_part_1/README.md) |
+| **08** | SIP Returns (XIRR) & Rolling Returns Consistency Analysis | [session_08_measuring_returns_part_2](mutual_fund_analysis/session_08_measuring_returns_part_2/README.md) |
+| **09** | Deconstructing Mutual Fund Risk & Standard Deviation | [session_09_mutual_fund_risk_part_1](mutual_fund_analysis/session_09_mutual_fund_risk_part_1/README.md) |
+| **10** | Ratios & Portfolio Risk Metrics (Beta, Alpha, Sharpe, Treynor & Sortino) | [session_10_mutual_fund_risk_part_2](mutual_fund_analysis/session_10_mutual_fund_risk_part_2/README.md) |
+| **11** | Reading Fund Factsheets, Expense Ratios & Operational Metrics | [session_11_how_to_analyze_mutual_funds_part_1](mutual_fund_analysis/session_11_how_to_analyze_mutual_funds_part_1/README.md) |
+| **12** | The Institutional 6-Point Scheme Selection Checklist | [session_12_mutual_funds_checklist](mutual_fund_analysis/session_12_mutual_funds_checklist/README.md) |
+| **13** | Portfolio Holdings Deconstruction & Overlap Analysis | [session_13_how_to_analyze_mutual_funds_part_3](mutual_fund_analysis/session_13_how_to_analyze_mutual_funds_part_3/README.md) |
+| **14** | End-to-End Teardown Masterclass (Morningstar, Value Research & Live Portfolios) | [session_14_how_to_analyze_mutual_funds_part_4_masterclass](mutual_fund_analysis/session_14_how_to_analyze_mutual_funds_part_4_masterclass/README.md) |
+| **15** | The Institutional Buy-Side Research Analyst Workflow | [session_15_career_and_cohort_insights](mutual_fund_analysis/session_15_career_and_cohort_insights/README.md) |
+| **16** | Connecting Fundamental Valuation with Mutual Fund Portfolio Construction | [session_16_valuation_and_portfolio_integration](mutual_fund_analysis/session_16_valuation_and_portfolio_integration/README.md) |
+
+---
+
+### 2. [Basics of Equity Research — Full Course (49 Sessions)](basics_of_equity_research/)
+*Focuses on institutional equity research, business models, corporate governance, financial statement analysis, accounting forensics, and canonical literature.*
+
+| # | Session Topic | Link to Dossier |
 | :-: | :--- | :--- |
 | **01** | session_01_introduction | [session_01_introduction](basics_of_equity_research/session_01_introduction/README.md) |
 | **02** | The Nature of Equity Research & Intrinsic Value Discovery | [session_02_what_is_equity_research](basics_of_equity_research/session_02_what_is_equity_research/README.md) |
