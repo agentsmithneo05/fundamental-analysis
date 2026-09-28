@@ -1,0 +1,20 @@
+{
+  "session": 35,
+  "title": "Think like an Expert: MASTERCLASS on Cost of Capital | WACC Simply Explained | The Valuation School",
+  "video_id": "nDhEv9Z9F14",
+  "video_url": "https://www.youtube.com/watch?v=nDhEv9Z9F14",
+  "playlist_url": "https://www.youtube.com/playlist?list=PL3uUjzLk6Pum8iq_fpwzb8hwFaRGZQP4k",
+  "module": "Module 7: Valuation, Cost of Capital & Cycles",
+  "topic": "Cost of Capital & WACC Masterclass: The Discount Rate Dilemma",
+  "books_referenced": [
+    "damodaran_valuation",
+    "mauboussin_expectations",
+    "munger"
+  ],
+  "practices": [
+    "Synthetic Credit Rating & Pre-Tax Cost of Debt Calculation",
+    "Equity Risk Premium (ERP) Estimation across Emerging Markets",
+    "Terminal Growth Rate Cap (GDP Growth Constraint)",
+    "CAPM Beta Fallacy vs Business Operational Risk Assessment"
+  ]
+}
