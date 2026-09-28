@@ -235,7 +235,119 @@ A forensic audit of the **Objects of the Offer** (`DRHP Page 120`) demonstrates 
 
 ---
 
-## Part VI: Competitive Benchmarking & Relative Valuation Matrix
+---
+
+## Part VI: Dynamic Financial Modeling & 3-Scenario Growth Forecast (Base, Bull, Bear)
+
+To eliminate speculative guesswork regarding Wakefit's fair value and entry price, we deploy an institutional **5-Year Integrated Scenario Model (FY27E – FY31E)**. We model three explicit economic futures:
+1. **Scenario A: Base Case ("Keep At It" / Historical Growth & Operating Discipline)**
+2. **Scenario B: Bull Case ("Accelerated Scale & Furniture Operating Leverage")**
+3. **Scenario C: Bear Case ("Demand Deceleration, TDI Cost Push & Margin Erosion")**
+
+### 1. Scenario Drivers & Operational Assumptions (FY27E – FY31E)
+
+```
+┌──────────────────────────────────────┬──────────────────────┬──────────────────────┬──────────────────────┐
+│ Operational Driver                   │ Bear Case (Downside) │ Base Case (Keep At It│ Bull Case (Upside)   │
+├──────────────────────────────────────┼──────────────────────┼──────────────────────┼──────────────────────┤
+│ 5-Year Revenue CAGR                  │ 10.0%                │ 16.0%                │ 24.0%                │
+│ FY31E Projected Revenue              │ ₹2,398.0 Crores      │ ₹3,127.3 Crores      │ ₹4,365.0 Crores      │
+│ Target EBITDA Margin                 │ 9.0% (Margin Erosion)│ 13.5% (Steady State) │ 16.5% (Scale Moat)   │
+│ FY31E Projected EBITDA               │ ₹215.8 Crores        │ ₹422.2 Crores        │ ₹720.2 Crores        │
+│ Depreciation % of Sales              │ 6.5%                 │ 6.0%                 │ 5.5%                 │
+│ Effective Statutory Tax Rate         │ 25.17%               │ 25.17%               │ 25.17%               │
+│ Capex % of Sales (Store Rollouts)    │ 6.0%                 │ 6.5%                 │ 7.0%                 │
+│ Working Capital % of Incremental Rev │ 4.0%                 │ 3.5%                 │ 3.0%                 │
+│ Terminal Growth Rate (g)             │ 3.5%                 │ 4.5%                 │ 5.0%                 │
+│ Exit Multiple (EV / EBITDA)          │ 10.0x                │ 14.0x                │ 18.0x                │
+│ Weighted Average Cost of Capital     │ 13.00% (High Risk)   │ 12.45% (Base WACC)   │ 12.00% (Scale De-risk│
+└──────────────────────────────────────┴──────────────────────┴──────────────────────┴──────────────────────┘
+```
+
+### 2. Year-by-Year Financial Statement Projections (FY27E – FY31E)
+
+#### Scenario A: Base Case ("Keep At It" — 16% Revenue CAGR | 13.5% EBITDA Margin)
+*Wakefit opens ~80 stores annually, maintains mattress leadership, and scales furniture to mid-teens.*
+
+| Financial Line (₹ Crores) | FY26A | FY27E | FY28E | FY29E | FY30E | FY31E |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Revenue from Operations** | **1,488.9** | **1,727.2** | **2,003.5** | **2,324.1** | **2,695.9** | **3,127.3** |
+| Operating EBITDA | 215.9 | 233.2 | 270.5 | 313.8 | 363.9 | 422.2 |
+| *EBITDA Margin %* | *14.5%* | *13.5%* | *13.5%* | *13.5%* | *13.5%* | *13.5%* |
+| Depreciation & Amortization | 104.5 | 103.6 | 120.2 | 139.4 | 161.8 | 187.6 |
+| Operating EBIT | 111.4 | 129.6 | 150.3 | 174.4 | 202.1 | 234.6 |
+| NOPAT (EBIT * (1 - 25.17%)) | 83.4 | 97.0 | 112.5 | 130.5 | 151.2 | 175.5 |
+| Add: Depreciation | 104.5 | 103.6 | 120.2 | 139.4 | 161.8 | 187.6 |
+| Less: Capex (Store & Plant) | 498.7 | 112.3 | 130.2 | 151.1 | 175.2 | 203.3 |
+| Less: Incremental Working Capital | 33.9 | 8.3 | 9.7 | 11.2 | 13.0 | 15.1 |
+| **Unlevered Free Cash Flow (FCFF)** | **-254.1** | **+80.0** | **+92.8** | **+107.6** | **+124.8** | **+144.7** |
+
+#### Scenario B: Bull Case ("Accelerated Scale" — 24% Revenue CAGR | 16.5% EBITDA Margin)
+*Jumbo stores succeed, furniture scales to 35% of revenue, and backward integration expands EBITDA margins.*
+
+| Financial Line (₹ Crores) | FY26A | FY27E | FY28E | FY29E | FY30E | FY31E |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Revenue from Operations** | **1,488.9** | **1,846.3** | **2,289.4** | **2,838.9** | **3,520.2** | **4,365.0** |
+| Operating EBITDA | 215.9 | 286.2 | 366.3 | 468.4 | 580.8 | 720.2 |
+| *EBITDA Margin %* | *14.5%* | *15.5%* | *16.0%* | *16.5%* | *16.5%* | *16.5%* |
+| Operating EBIT | 111.4 | 184.6 | 240.4 | 312.3 | 387.2 | 480.2 |
+| NOPAT | 83.4 | 138.1 | 179.9 | 233.7 | 289.7 | 359.3 |
+| **Unlevered Free Cash Flow (FCFF)** | **-254.1** | **+109.8** | **+147.2** | **+195.4** | **+249.2** | **+316.5** |
+
+#### Scenario C: Bear Case ("Downside Shock" — 10% Revenue CAGR | 9.0% EBITDA Margin)
+*TDI/Polyol raw material inflation persists, store payback stretches to 15 months, and D2C price wars compress margins.*
+
+| Financial Line (₹ Crores) | FY26A | FY27E | FY28E | FY29E | FY30E | FY31E |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Revenue from Operations** | **1,488.9** | **1,637.8** | **1,801.6** | **1,981.8** | **2,180.0** | **2,398.0** |
+| Operating EBITDA | 215.9 | 163.8 | 180.2 | 198.2 | 196.2 | 215.8 |
+| *EBITDA Margin %* | *14.5%* | *10.0%* | *10.0%* | *10.0%* | *9.0%* | *9.0%* |
+| Operating EBIT | 111.4 | 57.3 | 63.1 | 69.4 | 54.5 | 60.0 |
+| NOPAT | 83.4 | 42.9 | 47.2 | 51.9 | 40.8 | 44.9 |
+| **Unlevered Free Cash Flow (FCFF)** | **-254.1** | **+44.7** | **+49.4** | **+54.6** | **+38.5** | **+42.7** |
+
+---
+
+### 3. Valuation & Fair Value per Share Across Scenarios
+
+```
+┌──────────────────────────────────────┬──────────────────────┬──────────────────────┬──────────────────────┐
+│ Valuation Output                     │ Bear Case (Downside) │ Base Case (Keep At It│ Bull Case (Upside)   │
+├──────────────────────────────────────┼──────────────────────┼──────────────────────┼──────────────────────┤
+│ Present Value of 5-Yr Cash Flows     │ ₹170.8 Crores        │ ₹368.5 Crores        │ ₹685.2 Crores        │
+│ FY31E Exit EBITDA                    │ ₹215.8 Crores        │ ₹422.2 Crores        │ ₹720.2 Crores        │
+│ Target Exit EV/EBITDA Multiple       │ 10.0x                │ 14.0x                │ 18.0x                │
+│ Implied Terminal Value (Undiscounted)│ ₹2,158.0 Crores      │ ₹5,910.8 Crores      │ ₹12,963.6 Crores     │
+│ Present Value of Terminal Value      │ ₹1,171.3 Crores      │ ₹3,287.4 Crores      │ ₹7,355.6 Crores      │
+│ Total Enterprise Value (EV)          │ ₹1,342.1 Crores      │ ₹3,655.9 Crores      │ ₹8,040.8 Crores      │
+│ Add: Net Cash (Cash - Debt)          │ +₹50.9 Crores        │ +₹50.9 Crores        │ +₹50.9 Crores        │
+│ Implied Equity Value                 │ ₹1,393.0 Crores      │ ₹3,706.8 Crores      │ ₹8,091.7 Crores      │
+│ Total Diluted Shares Outstanding     │ 33.00 Crore Shares   │ 33.00 Crore Shares   │ 33.00 Crore Shares   │
+├──────────────────────────────────────┼──────────────────────┼──────────────────────┼──────────────────────┤
+│ INTRINSIC FAIR VALUE PER SHARE       │ ₹42.21               │ ₹112.33              │ ₹245.20              │
+│ Upside / (Downside) from CMP ₹138.57 │ -69.5%               │ -18.9%               │ +76.9%               │
+└──────────────────────────────────────┴──────────────────────┴──────────────────────┴──────────────────────┘
+```
+
+### 4. Probability-Weighted Expected Fair Value & Disciplined Entry Point
+
+To establish the institutional entry price, we apply a realistic probability weighting across the three scenarios:
+- **Bear Case Probability**: **25%** (Reflecting TDI raw material shocks and extended store payback).
+- **Base Case Probability**: **55%** (Reflecting steady 16% revenue CAGR and disciplined store execution).
+- **Bull Case Probability**: **20%** (Reflecting rapid market formalization and furniture operating leverage).
+
+$$	ext{Expected Intrinsic Value} = (0.25 	imes ₹42.21) + (0.50 	imes ₹112.33) + (0.20 	imes ₹245.20) = ₹10.55 + ₹56.17 + ₹49.04 = \mathbf{₹115.76}$$
+
+#### The Margin of Safety Entry Formula
+Following Benjamin Graham (*The Intelligent Investor*) and Seth Klarman (*Margin of Safety*), an institutional investor never purchases at the Expected Fair Value. For a high-beta consumer discretionary business with single-digit ROCE, we demand a **15% to 25% Margin of Safety Buffer**:
+
+$$	ext{Upper Accumulation Boundary} = ₹115.76 	imes (1 - 0.15) = \mathbf{₹98.40}$$
+$$	ext{Conservative Entry Boundary} = ₹115.76 	imes (1 - 0.25) = \mathbf{₹86.82}$$
+$$	ext{Market Realism Entry Corridor (incorporating Net Cash cushion)} = \mathbf{₹105.00 	ext{ to } ₹115.00}$$
+
+> **Key Model Takeaway**: At the current market price of **₹138.57**, Wakefit trades at a **20.0% premium to its Expected Intrinsic Value of ₹115.76**. The stock does not currently offer a margin of safety. Entering between **₹105 and ₹115** aligns with the Base Case valuation and cushions investors against near-term raw material margin compression.
+
+## Part VII: Competitive Benchmarking & Relative Valuation Matrix
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -266,7 +378,7 @@ A forensic audit of the **Objects of the Offer** (`DRHP Page 120`) demonstrates 
 
 ---
 
-## Part VII: Comprehensive SWOT Analysis
+## Part VIII: Comprehensive SWOT Analysis
 
 ### Strengths
 1. **Integrated Omnichannel Flywheel**: Strong digital brand presence (52.7% online) combined with 165+ physical touchpoints creates high regional brand awareness (3x local demand surge).
@@ -289,7 +401,7 @@ A forensic audit of the **Objects of the Offer** (`DRHP Page 120`) demonstrates 
 
 ---
 
-## Part VIII: Senior Analyst Valuation & Investment Recommendation
+## Part IX: Senior Analyst Valuation, Football Field & Investment Recommendation
 
 ### 1. DCF Valuation & Sensitivity Range
 - **Base Cost of Equity (Ke)**: Risk-Free Rate (7.10% on 10-Yr G-Sec) + Beta (1.15) * Equity Risk Premium (6.0%) = **14.0%**.
