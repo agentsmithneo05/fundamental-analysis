@@ -80,10 +80,22 @@ Every analysis must include an explicit **3-Scenario Financial Projection Model*
   - Deducting a 20% to 35% margin of safety from Fair Value based on business predictability to define the exact **Accumulation / Entry Price Band**.
 - **Clear Actionable Verdict**: Conviction Buy, Neutral / Watchlist, or Avoid / High Risk.
 
+### 9. Financial Newspaper HTML Publishing (Executive Broadsheet Edition)
+- Immediately following the generation of the Markdown report (`COMPANY_EQUITY_RESEARCH_REPORT.md`), compile an accompanying standalone HTML publication (`COMPANY_EQUITY_RESEARCH_REPORT.html`).
+- **Styling Standards**:
+  - Traditional financial newsprint paper background (`#fdfcf7` canvas with `#ede9df` frame).
+  - Editorial serif headlines (`Newsreader`, `Georgia`, `Cinzel`) and tabular monospaced financial tables (`JetBrains Mono`, `SF Mono`).
+  - Broad-sheet masthead with double-rule header, date line, ticker tape / telemetry strip, and forensic callouts.
+  - Zero-dependency, responsive, and print-ready CSS (`@media print`).
+- **Command**:
+  ```bash
+  python3 code/md_to_newspaper_html.py reports/<company>/<COMPANY_REPORT>.md
+  ```
+
 ---
 
-## 📋 Standard Markdown Report Structure
-When authoring an equity research dossier, format the output to include both an Executive Summary Dashboard and the detailed analytical sections:
+## 📋 Standard Markdown & HTML Report Deliverables
+When authoring an equity research dossier, always generate both the comprehensive Markdown report and the matching financial newspaper HTML edition:
 ```markdown
 # [Company Name] — Comprehensive Equity Research, Forensic Accounting Audit & Management Interrogation Dossier
 > **Author: Senior Institutional Research Analyst**
@@ -99,3 +111,6 @@ When authoring an equity research dossier, format the output to include both an 
 ## Part VIII: Comprehensive SWOT Analysis
 ## Part IX: Senior Analyst Valuation, Football Field & Investment Recommendation
 ```
+Output files:
+- `reports/<company>/<COMPANY>_EQUITY_RESEARCH_REPORT.md` (Markdown dossier)
+- `reports/<company>/<COMPANY>_EQUITY_RESEARCH_REPORT.html` (Financial Newspaper edition)

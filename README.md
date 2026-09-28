@@ -15,10 +15,11 @@ fundamental_analysis/
 │   ├── drhp_prospectus_auditor/       # [Specialized Skill] IPO Dilution, OFS & Objects of Offer
 │   ├── forensic_accounting_auditor/   # [Specialized Skill] Quality of Earnings (QoE) & Accrual Check
 │   ├── dynamic_financial_modeler/     # [Specialized Skill] 3-Scenario Projections (Base, Bull, Bear)
-│   └── daily_market_mover_analyst/    # [Specialized Skill] Intraday & Short-Term Movers / News Drivers
+│   ├── daily_market_mover_analyst/    # [Specialized Skill] Intraday & Short-Term Movers / News Drivers
+│   └── financial_newspaper_report_publisher/ # [Specialized Skill] Traditional Broadsheet HTML Publisher
 ├── reports/                           # Comprehensive Company Research & Forensic Dossiers
-│   ├── titan/                         # Titan Company Limited (Multi-Page Forensic Dossier & 3-Scenario DCF)
-│   ├── wakefit/                       # Wakefit Innovations Ltd (Multi-Page Forensic Dossier & IPO Diligence)
+│   ├── titan/                         # Titan Company Limited (Markdown Dossier & Newspaper HTML Edition)
+│   ├── wakefit/                       # Wakefit Innovations Ltd (Markdown Dossier & Newspaper HTML Edition)
 │   └── daily_movers/                  # Daily Market Mover Diagnostics & Catalyst Dissections
 ├── financial_modelling/               # Learn Financial Modelling - Step by Step (34 Sessions)
 ├── mutual_fund_analysis/              # Mutual Fund Analysis - Full Course 2024-25 (16 Sessions)
@@ -30,10 +31,10 @@ fundamental_analysis/
 
 ## 📊 Institutional Company Research Reports
 
-| Company / Ticker | Sector | Primary Documents Audited | Recommendation & Fair Value | Report Dossier Link |
+| Company / Ticker | Sector | Primary Documents Audited | Recommendation & Fair Value | Institutional Deliverables |
 | :--- | :--- | :--- | :--- | :--- |
-| **Titan Company Limited** (`TITAN`) | Consumer Discretionary / Luxury Retail | Annual Report FY26, Q1 FY27 Concall, Q3 FY26 Concall, Q4 FY25 Concall, Screener 12-Yr Model | **REDUCE / ACCUMULATE ON DIP**<br>Fair Value: **₹3,874.12**<br>Entry Band: **₹3,300 – ₹3,600** | [Titan Institutional Dossier](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.md) |
-| **Wakefit Innovations Limited** | D2C Home & Sleep Solutions | Draft Red Herring Prospectus (DRHP Dec 2025), Q1 FY27 Concall Transcript, 3-Yr Financials | **CAUTION / WAIT FOR VALUE**<br>Fair Value: **₹115.76**<br>Entry Band: **₹105 – ₹115** | [Wakefit Institutional Dossier](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.md) |
+| **Titan Company Limited** (`TITAN`) | Consumer Discretionary / Luxury Retail | Annual Report FY26, Q1 FY27 Concall, Q3 FY26 Concall, Q4 FY25 Concall, Screener 12-Yr Model | **REDUCE / ACCUMULATE ON DIP**<br>Fair Value: **₹3,874.12**<br>Entry Band: **₹3,300 – ₹3,600** | • [Markdown Research Dossier](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.md)<br>• [Newspaper Broadsheet Edition (HTML)](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.html) |
+| **Wakefit Innovations Limited** | D2C Home & Sleep Solutions | Draft Red Herring Prospectus (DRHP Dec 2025), Q1 FY27 Concall Transcript, 3-Yr Financials | **CAUTION / WAIT FOR VALUE**<br>Fair Value: **₹115.76**<br>Entry Band: **₹105 – ₹115** | • [Markdown Research Dossier](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.md)<br>• [Newspaper Broadsheet Edition (HTML)](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.html) |
 
 ---
 
@@ -41,7 +42,8 @@ fundamental_analysis/
 
 | Skill Folder | Skill Name | Scope & Analytical Capabilities |
 | :--- | :--- | :--- |
-| [`skills/equity_research_analyst/`](skills/equity_research_analyst/SKILL.md) | **Equity Research Analyst** *(Consolidated Master)* | Complete institutional workflow: Business model, financial statement forensics, concall interrogation, DRHP audits, 3-scenario dynamic financial modeling, and disciplined entry point derivation. |
+| [`skills/equity_research_analyst/`](skills/equity_research_analyst/SKILL.md) | **Equity Research Analyst** *(Consolidated Master)* | Complete institutional workflow: Business model, financial statement forensics, concall interrogation, DRHP audits, 3-scenario dynamic financial modeling, disciplined entry point derivation, and broadsheet HTML publishing. |
+| [`skills/financial_newspaper_report_publisher/`](skills/financial_newspaper_report_publisher/SKILL.md) | **Financial Newspaper Publisher** *(Specialized)* | Compiles institutional equity research dossiers into standalone, single-file HTML documents styled with traditional financial broadsheet aesthetics (FT, WSJ, Mint), classical serif typography, and print-ready CSS. |
 | [`skills/daily_market_mover_analyst/`](skills/daily_market_mover_analyst/SKILL.md) | **Daily Market Mover Analyst** *(Specialized)* | Dissecting top gainers/losers, earnings surprises, regulatory actions (USFDA, DGTR, SEBI), order wins, volume multipliers, deliverable %, RSI/VWAP metrics, sector spillovers, and tactical/contrarian verdicts. |
 | [`skills/concall_interrogator/`](skills/concall_interrogator/SKILL.md) | **Concall Interrogator** *(Specialized)* | Earnings call Q&A interrogation, pricing flip-flops, commodity shocks (TDI/Polyol), store payback elongation, and management evasiveness. |
 | [`skills/drhp_prospectus_auditor/`](skills/drhp_prospectus_auditor/SKILL.md) | **DRHP & Prospectus Auditor** *(Specialized)* | Offer for Sale (OFS) ratio audit, Objects of the Offer misallocations (funding rent/ads from equity), CARO bank statement mismatches, and Section 138 lapses. |

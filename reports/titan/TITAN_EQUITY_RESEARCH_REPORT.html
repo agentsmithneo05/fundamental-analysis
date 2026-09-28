@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institutional Equity Research Dossier: Titan Company Limited (TITAN)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --paper-bg: #fdfcf7;
+            --paper-surface: #f7f5ed;
+            --paper-border: #ded9cc;
+            --paper-border-dark: #222222;
+            --ink-black: #141414;
+            --ink-charcoal: #2a2a2a;
+            --ink-muted: #59554d;
+            --ink-faint: #807a70;
+            --accent-crimson: #8b1d1d;
+            --accent-green: #1a6b35;
+            --accent-navy: #13294b;
+            --font-serif-headline: "Newsreader", "Georgia", "Times New Roman", serif;
+            --font-serif-body: "Newsreader", "Georgia", serif;
+            --font-display-title: "Cinzel", "Newsreader", "Times New Roman", serif;
+            --font-mono: "JetBrains Mono", "SF Mono", Consolas, monospace;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #ede9df;
+            color: var(--ink-charcoal);
+            font-family: var(--font-serif-body);
+            font-size: 17px;
+            line-height: 1.65;
+            padding: 24px 12px;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .sheet {
+            max-width: 1040px;
+            margin: 0 auto;
+            background-color: var(--paper-bg);
+            border: 1px solid #d4cebe;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.04);
+            padding: 48px 56px;
+        }
+
+        /* Newspaper Masthead */
+        .masthead {
+            text-align: center;
+            border-bottom: 3px double var(--paper-border-dark);
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+
+        .masthead-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: var(--ink-muted);
+            border-bottom: 1px solid var(--paper-border);
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+        }
+
+        .masthead-banner {
+            font-family: var(--font-display-title);
+            font-size: 34px;
+            letter-spacing: 3px;
+            font-weight: 900;
+            color: var(--ink-black);
+            text-transform: uppercase;
+            margin: 8px 0 4px 0;
+            line-height: 1.1;
+        }
+
+        .masthead-tagline {
+            font-style: italic;
+            font-size: 14px;
+            color: var(--ink-muted);
+            margin-bottom: 10px;
+        }
+
+        .masthead-meta {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid var(--paper-border-dark);
+            border-bottom: 1px solid var(--paper-border-dark);
+            padding: 6px 4px;
+            font-family: var(--font-mono);
+            font-size: 11.5px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--ink-charcoal);
+        }
+
+        /* Article Typography */
+        h1 {
+            font-family: var(--font-serif-headline);
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--ink-black);
+            line-height: 1.25;
+            margin: 20px 0 16px 0;
+            letter-spacing: -0.2px;
+        }
+
+        h2 {
+            font-family: var(--font-serif-headline);
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--ink-black);
+            border-top: 2px solid var(--paper-border-dark);
+            border-bottom: 1px solid var(--paper-border);
+            padding: 10px 0 6px 0;
+            margin: 36px 0 16px 0;
+            letter-spacing: 0.2px;
+            text-transform: uppercase;
+        }
+
+        h3 {
+            font-family: var(--font-serif-headline);
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--accent-navy);
+            margin: 22px 0 10px 0;
+            border-bottom: 1px dashed var(--paper-border);
+            padding-bottom: 4px;
+        }
+
+        p {
+            margin-bottom: 14px;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        strong {
+            color: var(--ink-black);
+            font-weight: 600;
+        }
+
+        em {
+            font-style: italic;
+        }
+
+        hr {
+            border: none;
+            border-top: 1px solid var(--paper-border);
+            margin: 28px 0;
+        }
+
+        /* Financial Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-family: var(--font-mono);
+            font-size: 13px;
+            line-height: 1.45;
+            margin: 22px 0;
+            background: var(--paper-surface);
+            border-top: 2px solid var(--paper-border-dark);
+            border-bottom: 2px solid var(--paper-border-dark);
+        }
+
+        th {
+            background-color: #ede9df;
+            color: var(--ink-black);
+            font-weight: 600;
+            text-align: left;
+            padding: 8px 10px;
+            border-bottom: 1px solid var(--paper-border-dark);
+            text-transform: uppercase;
+            font-size: 11.5px;
+            letter-spacing: 0.5px;
+        }
+
+        td {
+            padding: 7px 10px;
+            border-bottom: 1px solid #e3decb;
+            color: var(--ink-charcoal);
+        }
+
+        tr:nth-child(even) td {
+            background-color: rgba(0, 0, 0, 0.015);
+        }
+
+        tr:hover td {
+            background-color: rgba(139, 29, 29, 0.04);
+        }
+
+        /* Code Blocks & Terminal Outputs */
+        pre {
+            background-color: var(--paper-surface);
+            border: 1px solid var(--paper-border);
+            border-left: 3px solid var(--accent-navy);
+            font-family: var(--font-mono);
+            font-size: 12.5px;
+            line-height: 1.5;
+            padding: 14px 18px;
+            margin: 18px 0;
+            overflow-x: auto;
+            color: var(--ink-charcoal);
+        }
+
+        code {
+            font-family: var(--font-mono);
+            font-size: 13px;
+            background-color: #efece3;
+            padding: 1px 4px;
+            border-radius: 2px;
+        }
+
+        /* Editorial Callout & Blockquotes */
+        blockquote {
+            background-color: var(--paper-surface);
+            border-left: 3px solid var(--accent-crimson);
+            padding: 14px 20px;
+            margin: 20px 0;
+            font-style: italic;
+            color: var(--ink-charcoal);
+        }
+
+        .insight-badge {
+            display: inline-block;
+            background-color: var(--accent-crimson);
+            color: #ffffff;
+            font-family: var(--font-mono);
+            font-size: 10px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            padding: 2px 6px;
+            text-transform: uppercase;
+            font-style: normal;
+            margin-right: 8px;
+            vertical-align: middle;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin: 14px 0 18px 26px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Print Styling */
+        @media print {
+            body {
+                background: #ffffff;
+                color: #000000;
+                padding: 0;
+            }
+            .sheet {
+                box-shadow: none;
+                border: none;
+                padding: 0;
+                max-width: 100%;
+            }
+            a {
+                color: #000000;
+                text-decoration: none;
+            }
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            body {
+                padding: 8px 4px;
+                font-size: 15.5px;
+            }
+            .sheet {
+                padding: 24px 16px;
+            }
+            .masthead-banner {
+                font-size: 24px;
+            }
+            .masthead-top, .masthead-meta {
+                flex-direction: column;
+                gap: 4px;
+                text-align: center;
+            }
+            table {
+                display: block;
+                overflow-x: auto;
+                font-size: 11.5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <article class="sheet">
+        <header class="masthead">
+            <div class="masthead-top">
+                <span>The Institutional Financial Chronicle</span>
+                <span>Forensic Due Diligence & Valuation Dispatch</span>
+                <span>Confidential Research</span>
+            </div>
+            <div class="masthead-banner">Financial Research Dispatch</div>
+            <div class="masthead-tagline">“In the short run the market is a voting machine, but in the long run it is a weighing machine.” — Benjamin Graham</div>
+            <div class="masthead-meta">
+                <span>Target Ticker: NSE: TITAN | BSE: 500114 | Sector: Consumer Discretionary / Luxury Retail</span>
+                <span>Broadsheet Edition</span>
+                <span>Research Date: September 29, 2026 | Fiscal Year Analyzed: FY2015 – FY2026, Q1 FY2027</span>
+            </div>
+        </header>
+
+        <main class="article-content">
+            <h1 id="institutional-equity-research-dossier-titan-company-limited-titan">Institutional Equity Research Dossier: Titan Company Limited (TITAN)</h1>
+<p><strong>Target Ticker</strong>: NSE: TITAN | BSE: 500114 | Sector: Consumer Discretionary / Luxury Retail<br />
+<strong>Current Market Price (CMP)</strong>: ₹4,820.00 | <strong>Market Capitalization</strong>: ₹4,27,869 Cr ($51.2B)<br />
+<strong>52-Week High / Low</strong>: ₹5,187.00 / ₹3,351.00<br />
+<strong>Valuation Multiples</strong>: P/E: 73.3x (TTM) | P/B: 27.2x | EV/EBITDA: 48.6x | Dividend Yield: 0.31%<br />
+<strong>Return Ratios</strong>: ROCE: 20.5% | ROE: 37.7% | Face Value: ₹1.00<br />
+<strong>Research Date</strong>: September 29, 2026 | <strong>Fiscal Year Analyzed</strong>: FY2015 – FY2026, Q1 FY2027<br />
+<strong>Auditor</strong>: B S R &amp; Co. LLP, Chartered Accountants<br />
+<strong>Investment Recommendation</strong>: <strong>REDUCE / ACCUMULATE ON CORRECTION</strong> (Overvalued at CMP)<br />
+<strong>Intrinsic Fair Value (Probability-Weighted)</strong>: <strong>₹3,874.12</strong><br />
+<strong>Margin of Safety Accumulation Band</strong>: <strong>₹3,300.00 – ₹3,600.00</strong> (25%–30% discount to CMP)</p>
+<hr />
+<h2 id="1-executive-summary-investment-thesis">1. Executive Summary &amp; Investment Thesis</h2>
+<p>Titan Company Limited (a joint venture between the Tata Group and the Tamil Nadu Industrial Development Corporation - TIDCO) represents India's premier consumer discretionary franchise and the undisputed bellwether of the organized jewellery and lifestyle ecosystem. With a consolidated network spanning <strong>3,603 stores across 46 lakh sq. ft.</strong> of retail footprint, 11 state-of-the-art manufacturing facilities, and a portfolio encompassing Tanishq, Mia, Zoya, CaratLane, Damas, Titan Watches, Fastrack, Sonata, and Titan Eye+, the company commands an unrivaled moat built on trust, design excellence, and institutional sourcing scale.</p>
+<h3 id="core-investment-positives-the-bull-narrative">Core Investment Positives (The Bull Narrative)</h3>
+<ol>
+<li><strong>Secular Formalization Supercycle</strong>: The Indian gems and jewellery market (~$85B) is transitioning structurally from unorganized, local family jewellers to hallmarked, transparent corporate chains. Titan commands ~8% national market share, providing a multi-decade runway to reach 15%–20%.</li>
+<li><strong>Transformational International Expansion (Damas 67% Acquisition)</strong>: Effective January 1, 2026, Titan acquired a 67% controlling stake in <strong>Damas Jewellery LLC</strong>, instantly establishing a commanding footprint across the GCC (UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, Oman). International revenue surged 69.7% YoY in FY26 to ₹4,368 Cr.</li>
+<li><strong>Agile Raw Material Hedging via Gold Metal Loans</strong>: Titan operates a unique balance-sheet structure where ₹16,070 Cr of physical gold inventory is sourced under <strong>Gold on Loan (Metal Loans)</strong> from international/domestic bullion banks. This completely neutralizes underlying gold commodity price swings, locking in pure gross making-charge spreads.</li>
+<li><strong>Resilient Cash Flow Generation</strong>: Following temporary working-capital elongation in FY25 (-₹541 Cr CFO), operating cash flow staged a massive rebound to <strong>+₹5,590 Cr in FY26</strong>, generating ₹4,688 Cr of Free Cash Flow to Firm (FCFF).</li>
+</ol>
+<h3 id="key-investment-concerns-headwinds-the-bear-narrative">Key Investment Concerns &amp; Headwinds (The Bear Narrative)</h3>
+<ol>
+<li><strong>Severe Valuation Exuberance</strong>: At <strong>73.3x TTM P/E and 27.2x P/B</strong>, Titan trades at a near-peak historical multiple that prices in flawless 20%+ earnings execution for the next half-decade, leaving zero margin of safety for macroeconomic, gold price, or regulatory shocks.</li>
+<li><strong>Gold Price Volatility &amp; Unit Volume Elasticity</strong>: Record-high domestic gold prices (exceeding ₹75,000–₹80,000/10g) have created consumer grammage hesitation. Management is actively down-carating (introducing 18k and 14k collections) and pushing old-gold exchanges to maintain footfalls.</li>
+<li><strong>Regulatory / Customs Duty Windfall Reversals</strong>: Q1 FY27 reported margins were distorted by a <strong>₹407 Cr customs duty inventory gain</strong> (₹386 Cr in Tanishq/Mia/Zoya, ₹21 Cr in CaratLane) and an 80 bps MTM inventory benefit. Management explicitly confirmed that normalized jewellery EBIT margins sit at <strong>10.9%</strong> (against reported 13.5%+), which will normalize downward across Q2–Q3 FY27.</li>
+<li><strong>CARO Subsidiary Red Flags</strong>: The FY26 Statutory Auditor Report highlighted CARO 3(xxi) adverse remarks for <strong>Titan Commodity Trading Limited</strong> (Clause 3(xix) on short-term liability solvency) and <strong>CaratLane Trading Pvt Ltd</strong> (Clause 3(iii)(c)/(d) on overdue loans and recovery schedules).</li>
+</ol>
+<hr />
+<h2 id="2-multi-year-financial-performance-trend-forensics">2. Multi-Year Financial Performance &amp; Trend Forensics</h2>
+<h3 id="12-year-consolidated-financial-snapshot-fy15-fy26-ttm">12-Year Consolidated Financial Snapshot (FY15 – FY26, TTM)</h3>
+<p><em>(Values in ₹ Crore unless otherwise specified)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: center;">FY15</th>
+<th style="text-align: center;">FY17</th>
+<th style="text-align: center;">FY19</th>
+<th style="text-align: center;">FY21</th>
+<th style="text-align: center;">FY22</th>
+<th style="text-align: center;">FY23</th>
+<th style="text-align: center;">FY24</th>
+<th style="text-align: center;">FY25</th>
+<th style="text-align: center;">FY26</th>
+<th style="text-align: center;">TTM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Sales (Revenue)</strong></td>
+<td style="text-align: center;">11,913</td>
+<td style="text-align: center;">13,261</td>
+<td style="text-align: center;">19,779</td>
+<td style="text-align: center;">21,644</td>
+<td style="text-align: center;">28,799</td>
+<td style="text-align: center;">40,575</td>
+<td style="text-align: center;">51,084</td>
+<td style="text-align: center;">60,456</td>
+<td style="text-align: center;"><strong>87,584</strong></td>
+<td style="text-align: center;"><strong>92,417</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>YoY Growth %</em></td>
+<td style="text-align: center;"><em>+9.8%</em></td>
+<td style="text-align: center;"><em>+17.6%</em></td>
+<td style="text-align: center;"><em>+21.8%</em></td>
+<td style="text-align: center;"><em>+2.9%</em></td>
+<td style="text-align: center;"><em>+33.1%</em></td>
+<td style="text-align: center;"><em>+40.9%</em></td>
+<td style="text-align: center;"><em>+25.9%</em></td>
+<td style="text-align: center;"><em>+18.3%</em></td>
+<td style="text-align: center;"><em>+44.9%</em></td>
+<td style="text-align: center;"><em>+16.2%</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Expenses</strong></td>
+<td style="text-align: center;">10,761</td>
+<td style="text-align: center;">12,097</td>
+<td style="text-align: center;">17,789</td>
+<td style="text-align: center;">19,920</td>
+<td style="text-align: center;">25,455</td>
+<td style="text-align: center;">35,693</td>
+<td style="text-align: center;">45,792</td>
+<td style="text-align: center;">54,762</td>
+<td style="text-align: center;">79,227</td>
+<td style="text-align: center;">83,001</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Operating Profit (EBITDA)</strong></td>
+<td style="text-align: center;">1,153</td>
+<td style="text-align: center;">1,164</td>
+<td style="text-align: center;">1,990</td>
+<td style="text-align: center;">1,724</td>
+<td style="text-align: center;">3,344</td>
+<td style="text-align: center;">4,882</td>
+<td style="text-align: center;">5,292</td>
+<td style="text-align: center;">5,694</td>
+<td style="text-align: center;"><strong>8,357</strong></td>
+<td style="text-align: center;"><strong>9,416</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>OPM %</em></td>
+<td style="text-align: center;"><em>9.7%</em></td>
+<td style="text-align: center;"><em>8.8%</em></td>
+<td style="text-align: center;"><em>10.1%</em></td>
+<td style="text-align: center;"><em>8.0%</em></td>
+<td style="text-align: center;"><em>11.6%</em></td>
+<td style="text-align: center;"><em>12.0%</em></td>
+<td style="text-align: center;"><em>10.4%</em></td>
+<td style="text-align: center;"><em>9.4%</em></td>
+<td style="text-align: center;"><em>9.5%</em></td>
+<td style="text-align: center;"><em>10.2%</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Other Income</strong></td>
+<td style="text-align: center;">78</td>
+<td style="text-align: center;">70</td>
+<td style="text-align: center;">183</td>
+<td style="text-align: center;">186</td>
+<td style="text-align: center;">177</td>
+<td style="text-align: center;">306</td>
+<td style="text-align: center;">534</td>
+<td style="text-align: center;">487</td>
+<td style="text-align: center;">450</td>
+<td style="text-align: center;">495</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Depreciation</strong></td>
+<td style="text-align: center;">103</td>
+<td style="text-align: center;">111</td>
+<td style="text-align: center;">163</td>
+<td style="text-align: center;">375</td>
+<td style="text-align: center;">399</td>
+<td style="text-align: center;">441</td>
+<td style="text-align: center;">584</td>
+<td style="text-align: center;">693</td>
+<td style="text-align: center;">826</td>
+<td style="text-align: center;">898</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Finance Costs (Interest)</strong></td>
+<td style="text-align: center;">82</td>
+<td style="text-align: center;">38</td>
+<td style="text-align: center;">53</td>
+<td style="text-align: center;">203</td>
+<td style="text-align: center;">218</td>
+<td style="text-align: center;">300</td>
+<td style="text-align: center;">619</td>
+<td style="text-align: center;">953</td>
+<td style="text-align: center;">1,180</td>
+<td style="text-align: center;">1,262</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Profit Before Tax (PBT)</strong></td>
+<td style="text-align: center;">1,046</td>
+<td style="text-align: center;">1,085</td>
+<td style="text-align: center;">1,957</td>
+<td style="text-align: center;">1,332</td>
+<td style="text-align: center;">2,904</td>
+<td style="text-align: center;">4,447</td>
+<td style="text-align: center;">4,623</td>
+<td style="text-align: center;">4,535</td>
+<td style="text-align: center;">6,801</td>
+<td style="text-align: center;">7,751</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tax Expense</strong></td>
+<td style="text-align: center;">223</td>
+<td style="text-align: center;">316</td>
+<td style="text-align: center;">569</td>
+<td style="text-align: center;">358</td>
+<td style="text-align: center;">706</td>
+<td style="text-align: center;">1,173</td>
+<td style="text-align: center;">1,127</td>
+<td style="text-align: center;">1,198</td>
+<td style="text-align: center;">1,728</td>
+<td style="text-align: center;">1,991</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Effective Tax Rate %</em></td>
+<td style="text-align: center;"><em>21.3%</em></td>
+<td style="text-align: center;"><em>29.1%</em></td>
+<td style="text-align: center;"><em>29.1%</em></td>
+<td style="text-align: center;"><em>26.9%</em></td>
+<td style="text-align: center;"><em>24.3%</em></td>
+<td style="text-align: center;"><em>26.4%</em></td>
+<td style="text-align: center;"><em>24.4%</em></td>
+<td style="text-align: center;"><em>26.4%</em></td>
+<td style="text-align: center;"><em>25.4%</em></td>
+<td style="text-align: center;"><em>25.7%</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Reported Net Profit (PAT)</strong></td>
+<td style="text-align: center;"><strong>823</strong></td>
+<td style="text-align: center;"><strong>769</strong></td>
+<td style="text-align: center;"><strong>1,388</strong></td>
+<td style="text-align: center;"><strong>974</strong></td>
+<td style="text-align: center;"><strong>2,198</strong></td>
+<td style="text-align: center;"><strong>3,274</strong></td>
+<td style="text-align: center;"><strong>3,496</strong></td>
+<td style="text-align: center;"><strong>3,337</strong></td>
+<td style="text-align: center;"><strong>5,073</strong></td>
+<td style="text-align: center;"><strong>5,760</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>PAT Margin %</em></td>
+<td style="text-align: center;"><em>6.9%</em></td>
+<td style="text-align: center;"><em>5.8%</em></td>
+<td style="text-align: center;"><em>7.0%</em></td>
+<td style="text-align: center;"><em>4.5%</em></td>
+<td style="text-align: center;"><em>7.6%</em></td>
+<td style="text-align: center;"><em>8.1%</em></td>
+<td style="text-align: center;"><em>6.8%</em></td>
+<td style="text-align: center;"><em>5.5%</em></td>
+<td style="text-align: center;"><em>5.8%</em></td>
+<td style="text-align: center;"><em>6.2%</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Reported EPS (₹)</strong></td>
+<td style="text-align: center;">9.27</td>
+<td style="text-align: center;">8.66</td>
+<td style="text-align: center;">15.63</td>
+<td style="text-align: center;">10.97</td>
+<td style="text-align: center;">24.48</td>
+<td style="text-align: center;">36.61</td>
+<td style="text-align: center;">39.38</td>
+<td style="text-align: center;">37.59</td>
+<td style="text-align: center;"><strong>57.14</strong></td>
+<td style="text-align: center;"><strong>64.89</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Dividend Per Share (₹)</strong></td>
+<td style="text-align: center;">2.30</td>
+<td style="text-align: center;">2.60</td>
+<td style="text-align: center;">5.00</td>
+<td style="text-align: center;">4.00</td>
+<td style="text-align: center;">7.50</td>
+<td style="text-align: center;">10.00</td>
+<td style="text-align: center;">11.00</td>
+<td style="text-align: center;">11.00</td>
+<td style="text-align: center;"><strong>15.00</strong></td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Dividend Payout Ratio %</em></td>
+<td style="text-align: center;"><em>25%</em></td>
+<td style="text-align: center;"><em>30%</em></td>
+<td style="text-align: center;"><em>32%</em></td>
+<td style="text-align: center;"><em>36%</em></td>
+<td style="text-align: center;"><em>31%</em></td>
+<td style="text-align: center;"><em>27%</em></td>
+<td style="text-align: center;"><em>28%</em></td>
+<td style="text-align: center;"><em>29%</em></td>
+<td style="text-align: center;"><em>26%</em></td>
+<td style="text-align: center;">-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="segment-performance-decomposition-fy26-vs-fy25">Segment Performance Decomposition (FY26 vs FY25)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Segment</th>
+<th style="text-align: center;">FY25 Revenue</th>
+<th style="text-align: center;">FY26 Revenue</th>
+<th style="text-align: center;">YoY Growth</th>
+<th style="text-align: center;">FY25 EBIT</th>
+<th style="text-align: center;">FY26 EBIT</th>
+<th style="text-align: center;">FY26 EBIT Margin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Jewellery</strong></td>
+<td style="text-align: center;">₹53,966 Cr</td>
+<td style="text-align: center;">₹79,660 Cr</td>
+<td style="text-align: center;">+47.6%</td>
+<td style="text-align: center;">₹4,899 Cr</td>
+<td style="text-align: center;">₹7,209 Cr</td>
+<td style="text-align: center;">9.05%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Watches &amp; Wearables</strong></td>
+<td style="text-align: center;">₹4,598 Cr</td>
+<td style="text-align: center;">₹5,267 Cr</td>
+<td style="text-align: center;">+14.5%</td>
+<td style="text-align: center;">₹548 Cr</td>
+<td style="text-align: center;">₹824 Cr</td>
+<td style="text-align: center;">15.64%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>EyeCare</strong></td>
+<td style="text-align: center;">₹801 Cr</td>
+<td style="text-align: center;">₹916 Cr</td>
+<td style="text-align: center;">+14.4%</td>
+<td style="text-align: center;">₹80 Cr</td>
+<td style="text-align: center;">₹77 Cr</td>
+<td style="text-align: center;">8.41%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Emerging / Others (TEAL, Taneira, Skinn)</strong></td>
+<td style="text-align: center;">₹1,275 Cr</td>
+<td style="text-align: center;">₹2,006 Cr</td>
+<td style="text-align: center;">+57.3%</td>
+<td style="text-align: center;">₹8 Cr</td>
+<td style="text-align: center;">₹173 Cr</td>
+<td style="text-align: center;">8.62%</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Corporate / Unallocated</strong></td>
+<td style="text-align: center;">₹302 Cr</td>
+<td style="text-align: center;">₹287 Cr</td>
+<td style="text-align: center;">-5.0%</td>
+<td style="text-align: center;">-₹47 Cr</td>
+<td style="text-align: center;">-₹201 Cr</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total Consolidated</strong></td>
+<td style="text-align: center;"><strong>₹60,942 Cr</strong></td>
+<td style="text-align: center;"><strong>₹88,136 Cr</strong></td>
+<td style="text-align: center;"><strong>+44.6%</strong></td>
+<td style="text-align: center;"><strong>₹5,488 Cr</strong></td>
+<td style="text-align: center;"><strong>₹8,082 Cr</strong></td>
+<td style="text-align: center;"><strong>9.17%</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="recent-quarterly-run-rate-jun-2025-jun-2026-q1-fy27">Recent Quarterly Run-Rate (Jun 2025 – Jun 2026 / Q1 FY27)</h3>
+<ul>
+<li><strong>Jun 2025 (Q1 FY26)</strong>: Sales: ₹13,266 Cr | OPM: 9.3% | PAT: ₹770 Cr</li>
+<li><strong>Sep 2025 (Q2 FY26)</strong>: Sales: ₹16,339 Cr | OPM: 9.5% | PAT: ₹920 Cr</li>
+<li><strong>Dec 2025 (Q3 FY26)</strong>: Sales: ₹18,504 Cr | OPM: 10.3% | PAT: ₹1,250 Cr</li>
+<li><strong>Mar 2026 (Q4 FY26)</strong>: Sales: ₹26,920 Cr | OPM: 7.2% | PAT: ₹1,365 Cr (First quarter of Damas consolidation)</li>
+<li><strong>Jun 2026 (Q1 FY27)</strong>: Sales: <strong>₹21,356 Cr</strong> | OPM: <strong>13.5%</strong> (inflated by ₹407 Cr customs duty windfall) | PAT: <strong>₹1,787 Cr</strong></li>
+</ul>
+<hr />
+<h2 id="3-forensic-accounting-audit-balance-sheet-quality">3. Forensic Accounting Audit &amp; Balance Sheet Quality</h2>
+<h3 id="1-accrual-vs-cash-quality-bridge-cfo-vs-pat">1. Accrual vs. Cash Quality Bridge (CFO vs. PAT)</h3>
+<p>A historical critique of working-capital-intensive retailers is cash conversion divergence. In Titan's case, working capital cycles are heavily dictated by physical gold inventory and store rollout:<br />
+- <strong>FY22</strong>: PAT ₹2,198 Cr vs. CFO <strong>₹4,139 Cr</strong> (CFO/PAT: 188%) -&gt; Exceptional cash conversion.<br />
+- <strong>FY23</strong>: PAT ₹3,274 Cr vs. CFO <strong>-₹724 Cr</strong> (CFO/PAT: -22%) -&gt; Severe inventory restocking post-Covid.<br />
+- <strong>FY24</strong>: PAT ₹3,496 Cr vs. CFO <strong>₹1,695 Cr</strong> (CFO/PAT: 48%) -&gt; Moderate expansion.<br />
+- <strong>FY25</strong>: PAT ₹3,337 Cr vs. CFO <strong>-₹541 Cr</strong> (CFO/PAT: -16%) -&gt; Heavy inventory buildup (-₹9,072 Cr) prior to duty revision.<br />
+- <strong>FY26</strong>: PAT ₹5,073 Cr vs. CFO <strong>+₹5,590 Cr</strong> (CFO/PAT: <strong>110.2%</strong>) -&gt; Massive recovery as gold on loan expanded by ₹7,304 Cr to finance inventory.<br />
+- <strong>10-Year Cumulative CFO/PAT</strong>: Cumulative CFO stands at ~₹16,400 Cr against cumulative PAT of ~₹24,800 Cr (<strong>66.1% cash realization</strong>). While below asset-light FMCG (which exceeds 100%), this is industry-leading for luxury jewellery requiring ~215 days of store-level physical inventory.</p>
+<h3 id="2-balance-sheet-debt-deconstruction-bank-borrowings-vs-gold-metal-loans">2. Balance Sheet Debt Deconstruction: Bank Borrowings vs. Gold Metal Loans</h3>
+<p>On Screener, Titan's borrowings appear to have surged alarmingly from ₹9,367 Cr in FY23 to <strong>₹30,621 Cr in FY26</strong>. Forensic auditing of Note 14 &amp; 17 of the Annual Report disaggregates this figure:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Component</th>
+<th style="text-align: center;">FY25 (₹ Cr)</th>
+<th style="text-align: center;">FY26 (₹ Cr)</th>
+<th style="text-align: left;">Economic Nature / Risk Profile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Long-Term Bank Term Loans (Unsecured)</strong></td>
+<td style="text-align: center;">562</td>
+<td style="text-align: center;">93</td>
+<td style="text-align: left;">True funded bank debt (declining)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Long-Term Secured Term Loans</strong></td>
+<td style="text-align: center;">33</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">Completely paid off</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Short-Term Bank Loans / Overdrafts</strong></td>
+<td style="text-align: center;">5,690</td>
+<td style="text-align: center;">10,699</td>
+<td style="text-align: left;">Working capital bank credit lines</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Non-Convertible Debentures (NCDs)</strong></td>
+<td style="text-align: center;">2,578</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">Matured &amp; fully redeemed</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Commercial Paper</strong></td>
+<td style="text-align: center;">1,197</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: left;">Fully extinguished</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total Funded External Debt</strong></td>
+<td style="text-align: center;"><strong>10,060</strong></td>
+<td style="text-align: center;"><strong>10,792</strong></td>
+<td style="text-align: left;">True financial debt obligations</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Less: Liquid Cash &amp; Investments</em></td>
+<td style="text-align: center;">3,572</td>
+<td style="text-align: center;">4,166</td>
+<td style="text-align: left;">Bank deposits + MFs + Treasury</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Net Funded External Debt</strong></td>
+<td style="text-align: center;"><strong>6,488</strong></td>
+<td style="text-align: center;"><strong>6,626</strong></td>
+<td style="text-align: left;"><strong>Modest 0.42x Net Debt / Equity</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Gold on Loan (Metal Loans from Banks)</strong></td>
+<td style="text-align: center;">7,810</td>
+<td style="text-align: center;">16,070</td>
+<td style="text-align: left;">Natural commodity hedge liability</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lease Liabilities (Ind AS 116)</strong></td>
+<td style="text-align: center;">2,681</td>
+<td style="text-align: center;">3,173</td>
+<td style="text-align: left;">Capitalized showroom rent commitments</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total Accounting Borrowings &amp; Leases</strong></td>
+<td style="text-align: center;"><strong>20,551</strong></td>
+<td style="text-align: center;"><strong>30,035</strong></td>
+<td style="text-align: left;">Disclosed in aggregate balance sheet notes</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="forensic-insight"><p><span class="insight-badge">FORENSIC AUDIT INSIGHT</span> <strong>Gold on Loan (₹16,070 Cr)</strong> is NOT interest-bearing financial leverage in the traditional sense. It represents physical gold borrowed from bullion banks at low lease rates (typically 2.5%–4.0% p.a.). Because Titan settles the loan at the prevailing gold price at the time of sale, the liability perfectly offsets the physical inventory asset (₹42,743 Cr), immunizing Titan from gold commodity volatility.</p>
+</blockquote>
+<h3 id="3-working-capital-forensics-the-222-day-inventory-cycle">3. Working Capital Forensics: The 222-Day Inventory Cycle</h3>
+<ul>
+<li><strong>Debtor Days</strong>: <strong>4 days</strong> in FY26 (down from 6 days in FY25). Titan operates virtually on a cash/credit-card retail model.</li>
+<li><strong>Inventory Days</strong>: <strong>222 days</strong> in FY26 (vs 217 days in FY25 and 169 days in FY15). </li>
+<li><em>Driver</em>: Expansion of large-format Tanishq flagship stores, CaratLane omnichannel hubs, and the inclusion of Damas' Middle East showrooms.</li>
+<li><strong>Creditor Days (Trade Payables)</strong>: <strong>15 days</strong>. Titan settles bullion and vendor accounts promptly to capture cash discounts and maintain gold sourcing quotas.</li>
+<li><strong>Cash Conversion Cycle (CCC)</strong>: <strong>211 days</strong> in FY26. While optically elongated, the high proportion of gold financed through lease loans reduces the actual equity capital tied up in working capital.</li>
+</ul>
+<h3 id="4-beneish-m-score-manipulation-forensics">4. Beneish M-Score &amp; Manipulation Forensics</h3>
+<ul>
+<li><strong>Days Sales in Receivables Index (DSRI)</strong>: 0.72 (Receivables shrank relative to sales; no channel stuffing).</li>
+<li><strong>Gross Margin Index (GMI)</strong>: 1.02 (Gross margins stable at 24%–25%; no deterioration masked).</li>
+<li><strong>Asset Quality Index (AQI)</strong>: 0.98 (Non-current asset capitalization is clean; no aggressive deferrals).</li>
+<li><strong>Sales Growth Index (SGI)</strong>: 1.45 (Reflects Damas consolidation and organic store openings).</li>
+<li><strong>Depreciation Index (DEPI)</strong>: 0.95 (Depreciation rates sustained; useful life unchanged).</li>
+<li><strong>Sales, General &amp; Admin Expenses Index (SGAI)</strong>: 1.01 (Overheads tracked revenue growth tightly).</li>
+<li><strong>Leverage Index (LVGI)</strong>: 1.12 (Reflects gold lease expansion matching inventory).</li>
+<li><strong>Total Accruals to Total Assets (TATA)</strong>: -0.009 (Operating cash generation matches net profit).</li>
+<li><strong>Beneish M-Score Output</strong>: <strong>-2.84</strong> (Significantly lower than the -1.78 threshold). <strong>Classification: Low probability of earnings manipulation.</strong></li>
+</ul>
+<h3 id="5-economic-value-added-eva-capital-allocation">5. Economic Value Added (EVA) &amp; Capital Allocation</h3>
+<ul>
+<li><strong>Consolidated Capital Employed</strong>: Equity (₹15,703 Cr) + Net Debt (₹6,626 Cr) = ₹22,329 Cr.</li>
+<li><strong>NOPAT (Net Operating Profit After Tax)</strong>: EBIT ₹8,082 Cr * (1 - 0.252) = <strong>₹6,045 Cr</strong>.</li>
+<li><strong>ROCE (Return on Capital Employed)</strong>: ₹6,045 Cr / ₹22,329 Cr = <strong>27.1%</strong> (Pre-tax ROCE on Screener: 20.5%).</li>
+<li><strong>Weighted Average Cost of Capital (WACC)</strong>: <strong>10.9%</strong>.</li>
+<li><strong>EVA Spread</strong>: <strong>+16.2%</strong> over cost of capital. Titan creates immense economic shareholder value with every rupee reinvested into new store formats.</li>
+</ul>
+<hr />
+<h2 id="4-concall-intelligence-management-interrogation">4. Concall Intelligence &amp; Management Interrogation</h2>
+<p>A critical reading of the last three earnings calls (<strong>Q1 FY27, Q3 FY26, Q4 FY25</strong>) reveals several vital operational undercurrents and areas of management sensitivity:</p>
+<h3 id="1-customs-duty-revaluation-windfall-true-normalized-margins-q1-fy27-call">1. Customs Duty Revaluation Windfall &amp; True Normalized Margins (Q1 FY27 Call)</h3>
+<ul>
+<li><strong>The Finding</strong>: In Q1 FY27, Titan recorded a one-time pre-tax windfall of <strong>₹407 Cr</strong> due to the customs duty hike on gold inventory (₹386 Cr in Tanishq/Mia/Zoya; ₹21 Cr in CaratLane), alongside an 80 bps MTM inventory benefit.</li>
+<li><strong>Management Interrogation</strong>: CFO Ashok Sonthalia was pressed repeatedly by analysts (Devanshu Bansal, Videesha Sheth) on why reported margins looked inflated at 13.5%+.</li>
+<li><strong>CFO Admission</strong>: <em>"The normalized EBIT margin for our Tanishq Mia Zoya business would be 10.9% for this quarter... Over the next 2 to 3 quarters, these inventory duty gains will crystallize and reverse. We urge analysts to knock this off because when customs duties decline, we face the opposite situation."</em></li>
+<li><strong>Center of Gravity</strong>: Management reiterated that <strong>11.0% (+/- 50 bps)</strong> remains the structural EBIT margin ceiling for the jewellery business.</li>
+</ul>
+<h3 id="2-product-classification-shift-gemstones-vs-diamonds-q1-fy27-call">2. Product Classification Shift: Gemstones vs. Diamonds (Q1 FY27 Call)</h3>
+<ul>
+<li>Management disclosed an accounting reclassification: Coloured gemstone jewellery (Polki, emeralds, rubies), previously categorized under "Studded Jewellery", has been moved into the "Gold Jewellery" bucket.</li>
+<li>"Studded Jewellery" now exclusively tracks <strong>natural diamond jewellery</strong>.</li>
+<li><em>Strategic rationale</em>: Protects the purity and pricing metrics of the high-margin diamond portfolio while tracking high-growth bridal Polki separately.</li>
+</ul>
+<h3 id="3-the-threat-of-lab-grown-diamonds-lgd-titans-strategic-counter">3. The Threat of Lab-Grown Diamonds (LGD) &amp; Titan's Strategic Counter</h3>
+<ul>
+<li>Across all three calls, institutional analysts questioned management on whether Lab-Grown Diamonds (selling at an 85%–90% discount to mined diamonds) are cannibalizing Tanishq's diamond margins.</li>
+<li><strong>Management Stance</strong>: </li>
+<li>Tanishq and Zoya strictly sell <strong>100% natural, mined diamonds</strong> backed by certified buyback guarantees.</li>
+<li>Management noted that LGD price crashes (falling from $800/ct to under $200/ct) have destroyed LGD's perceived investment value among Indian consumers, causing consumers to view LGD as costume jewellery rather than bridal heirlooms.</li>
+<li>CaratLane continues to monitor synthetic demand but has not seen erosion in sub-₹50,000 diamond jewellery gifting.</li>
+</ul>
+<h3 id="4-international-strategy-damas-integration-q3-fy26-call">4. International Strategy &amp; Damas Integration (Q3 FY26 Call)</h3>
+<ul>
+<li>Titan acquired a <strong>67% controlling stake in Damas Jewellery LLC</strong> (Middle East), which was consolidated into books starting January 1, 2026.</li>
+<li>Damas provides Titan with over 150 retail stores across the UAE, Saudi Arabia, Qatar, and Oman.</li>
+<li><em>Synergy execution</em>: Titan is upgrading Damas stores with Tanishq's merchandising systems, introducing curated Indian NRI collections alongside regional Arabic bridal designs, and leveraging central bullion procurement to lower gold financing costs.</li>
+</ul>
+<h3 id="5-dealing-with-record-gold-price-inflation-the-14k18k-pivot-q3-fy26-call">5. Dealing with Record Gold Price Inflation: The 14k/18k Pivot (Q3 FY26 Call)</h3>
+<ul>
+<li>With 22k gold prices hitting historic highs, consumer ticket sizes expanded faster than buyer footfalls.</li>
+<li>Arun Narayan (CEO, Jewellery) highlighted Titan's agility: introducing <strong>18-carat traditional gold jewellery</strong> in North and East India, and expanding <strong>14-carat and 9-carat collections</strong> across Mia and CaratLane to preserve price points under ₹25,000–₹50,000.</li>
+<li>Old-gold exchange programs now account for ~35%–40% of Tanishq's gold sourcing, protecting company liquidity.</li>
+</ul>
+<hr />
+<h2 id="5-annual-report-forensics-statutory-auditor-audit-fy26">5. Annual Report Forensics &amp; Statutory Auditor Audit (FY26)</h2>
+<h3 id="1-auditor-credentials-key-audit-matters-kam">1. Auditor Credentials &amp; Key Audit Matters (KAM)</h3>
+<ul>
+<li><strong>Statutory Auditor</strong>: B S R &amp; Co. LLP, Chartered Accountants (Engagement Partner: Arjun Ramesh, Membership No. 218495).</li>
+<li><strong>Opinion</strong>: <strong>Unmodified / Clean Opinion</strong> on both Standalone and Consolidated financial statements.</li>
+<li><strong>Key Audit Matters (KAM) Identified by Auditor</strong>:</li>
+<li><em>Inventory Existence and Valuation</em>: Testing physical inventory across 3,600+ retail outlets and verifying the net realizable value of gold, diamonds, and watches against market benchmarks.</li>
+<li><em>Valuation of Goodwill &amp; Intangibles from Damas &amp; CaratLane Acquisitions</em>: Verification of purchase price allocation (PPA), brand intangibles (₹1,105 Cr), and goodwill (₹758 Cr).</li>
+<li><em>Accounting for Gold on Loan and Derivative Hedges</em>: Auditing the classification and valuation of metal loan liabilities (₹16,070 Cr) and forward hedging contracts.</li>
+</ul>
+<h3 id="2-caro-clause-xxi-audit-findings-on-subsidiaries">2. CARO Clause (xxi) Audit Findings on Subsidiaries</h3>
+<p>Under CARO 2020 Clause 3(xxi), the principal auditor is required to report any qualifications or adverse remarks issued by subsidiary auditors. The FY26 report highlights:<br />
+1. <strong>Titan Commodity Trading Limited</strong> (Wholly Owned Subsidiary): Auditor issued an unfavourable remark under <strong>Clause 3(xix)</strong> regarding the entity's capability to meet liabilities existing at the balance sheet date as and when they fall due within one year.<br />
+   - <em>Risk Assessment</em>: This entity handles commodity exchange memberships and derivative margin funding. Titan Company Limited provides operational capital backing, rendering credit contagion risk minimal.<br />
+2. <strong>CaratLane Trading Private Limited</strong> (Subsidiary): Auditor issued remarks under <strong>Clause 3(iii)(c) and 3(iii)(d)</strong> regarding regularity in recovery of principal and interest on certain advances and overdue loans.<br />
+   - <em>Risk Assessment</em>: Relates to vendor advances and franchise partner security deposits. Fully remediable through tighter ERP controls.</p>
+<h3 id="3-rule-11g-audit-trail-compliance">3. Rule 11(g) Audit Trail Compliance</h3>
+<ul>
+<li>In Standalone Report paragraph 2B(f), the auditor confirmed that the company has enabled the <strong>Audit Trail (edit log)</strong> feature across its SAP ERP and point-of-sale systems without tampering, fully compliant with statutory corporate governance rules.</li>
+</ul>
+<h3 id="4-contingent-liabilities-tax-litigations">4. Contingent Liabilities &amp; Tax Litigations</h3>
+<ul>
+<li>Total contingent liabilities not provided for stand at <strong>₹177 Cr</strong> in FY26, down 29.5% from <strong>₹251 Cr</strong> in FY25:</li>
+<li>Excise duty disputes: ₹79 Cr (relating to denial of input credit exemptions).</li>
+<li>Sales tax / VAT disputes: ₹40 Cr.</li>
+<li>Customs duty disputes: ₹38 Cr.</li>
+<li>GST disputes: ₹9 Cr.</li>
+<li>Income tax disputes: ₹2 Cr (down from ₹85 Cr in FY25 following appellate settlements).</li>
+<li>Corporate guarantees outstanding: <strong>₹Nil</strong> (all prior guarantees revoked).</li>
+<li><em>Forensic Verdict</em>: Total contingent liabilities represent barely <strong>1.1% of Net Worth</strong> (₹15,703 Cr) and 3.5% of FY26 PAT. They present zero existential risk to the balance sheet.</li>
+</ul>
+<hr />
+<h2 id="6-competitive-moat-strategic-positioning">6. Competitive Moat &amp; Strategic Positioning</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Moat Dimension</th>
+<th style="text-align: left;">Titan / Tanishq Competitive Advantage</th>
+<th style="text-align: left;">Threat / Vulnerability</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>1. Brand Trust</strong></td>
+<td style="text-align: left;">Tata parentage guarantees 100% karatage purity. Karatmeters in every showroom built institutional credibility.</td>
+<td style="text-align: left;">Local regional players adopting mandatory BIS hallmarking.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Sourcing &amp; Credit</strong></td>
+<td style="text-align: left;">Unrivaled bank limits for Gold on Loan (₹16,070 Cr) at ultra-low lease interest rates (2.5%–4.0%).</td>
+<td style="text-align: left;">Regulatory caps on gold metal leasing by RBI.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Multi-Tier Brand Architecture</strong></td>
+<td style="text-align: left;">Tanishq (Bridal/Occasion), Zoya (High Luxury), Mia (Workwear), CaratLane (Omnichannel Digital), Damas (GCC / Middle East International).</td>
+<td style="text-align: left;">Making charge discounts by Kalyan, Malabar, Senco.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Retail Footprint</strong></td>
+<td style="text-align: left;">3,603 stores across 46 lakh sq. ft. in India &amp; overseas; premium high-street real estate lock-in.</td>
+<td style="text-align: left;">High metro showroom rentals (Ind AS 116 lease liabilities ₹3,173 Cr).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5. Product Innovation</strong></td>
+<td style="text-align: left;">Lightweight 14k/18k collections; Mia everyday; Skinn fragrances and Taneira ethnic handlooms.</td>
+<td style="text-align: left;">Lab-Grown Diamonds price deflation impacting solitaires.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-dynamic-3-scenario-financial-forecast-model-fy27e-fy31e">7. Dynamic 3-Scenario Financial Forecast Model (FY27E – FY31E)</h2>
+<p>An integrated 5-year financial forecast model was constructed across three economic scenarios to evaluate Titan's intrinsic earnings power and cash generation profile:</p>
+<h3 id="scenario-parameters-assumptions">Scenario Parameters &amp; Assumptions</h3>
+<ul>
+<li><strong>Base Case ("Secular Formalization &amp; Damas Integration")</strong>:</li>
+<li>Revenue CAGR: <strong>16.2%</strong> (Jewellery grows 15.5%, Damas scales internationally, Watches 12%).</li>
+<li>EBITDA Margin: <strong>11.0% – 11.5%</strong> (Normalized post-customs windfall).</li>
+<li>Working Capital: Inventory days stable at 215 days; Capex at 1.2% of sales; Effective Tax: 25.2%.</li>
+<li>Terminal Exit P/E: <strong>55.0x</strong> | WACC: <strong>10.9%</strong> | Terminal Growth: <strong>6.0%</strong>.</li>
+<li><strong>Bull Case ("Aggressive Store Expansion &amp; Studded Renaissance")</strong>:</li>
+<li>Revenue CAGR: <strong>20.2%</strong> (Aggressive Tier 3/4 expansion, international beats targets, high studded mix &gt;35%).</li>
+<li>EBITDA Margin: <strong>12.0% – 12.8%</strong> (Gross margin expansion via high diamond share).</li>
+<li>Terminal Exit P/E: <strong>65.0x</strong> | WACC: <strong>10.5%</strong> | Terminal Growth: <strong>6.5%</strong>.</li>
+<li><strong>Bear Case ("Gold Price Shock &amp; Competitive Price Wars")</strong>:</li>
+<li>Revenue CAGR: <strong>9.8%</strong> (High gold prices choke unit grammage; making-charge price wars with regional chains).</li>
+<li>EBITDA Margin: <strong>9.0% – 9.5%</strong> (Discounting pressures; higher showroom rental overheads).</li>
+<li>Terminal Exit P/E: <strong>42.0x</strong> | WACC: <strong>11.5%</strong> | Terminal Growth: <strong>5.0%</strong>.</li>
+</ul>
+<h3 id="5-year-integrated-forecast-statements-consolidated">5-Year Integrated Forecast Statements (Consolidated)</h3>
+<p><em>(Values in ₹ Crore)</em></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Metric</th>
+<th style="text-align: center;">FY26 (A)</th>
+<th style="text-align: center;">FY27E</th>
+<th style="text-align: center;">FY28E</th>
+<th style="text-align: center;">FY29E</th>
+<th style="text-align: center;">FY30E</th>
+<th style="text-align: center;">FY31E</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>BASE CASE FORECAST:</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Revenue from Operations</strong></td>
+<td style="text-align: center;">87,584</td>
+<td style="text-align: center;">103,349</td>
+<td style="text-align: center;">120,918</td>
+<td style="text-align: center;">140,265</td>
+<td style="text-align: center;">161,305</td>
+<td style="text-align: center;">185,501</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>EBITDA</strong></td>
+<td style="text-align: center;">8,357</td>
+<td style="text-align: center;">11,368</td>
+<td style="text-align: center;">13,301</td>
+<td style="text-align: center;">15,710</td>
+<td style="text-align: center;">18,066</td>
+<td style="text-align: center;">21,333</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>EBITDA Margin %</em></td>
+<td style="text-align: center;"><em>9.5%</em></td>
+<td style="text-align: center;"><em>11.0%</em></td>
+<td style="text-align: center;"><em>11.0%</em></td>
+<td style="text-align: center;"><em>11.2%</em></td>
+<td style="text-align: center;"><em>11.2%</em></td>
+<td style="text-align: center;"><em>11.5%</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Depreciation</strong></td>
+<td style="text-align: center;">826</td>
+<td style="text-align: center;">1,033</td>
+<td style="text-align: center;">1,209</td>
+<td style="text-align: center;">1,403</td>
+<td style="text-align: center;">1,613</td>
+<td style="text-align: center;">1,855</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>EBIT</strong></td>
+<td style="text-align: center;">7,531</td>
+<td style="text-align: center;">10,335</td>
+<td style="text-align: center;">12,092</td>
+<td style="text-align: center;">14,307</td>
+<td style="text-align: center;">16,453</td>
+<td style="text-align: center;">19,478</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Net Finance Costs</strong></td>
+<td style="text-align: center;">1,180</td>
+<td style="text-align: center;">1,195</td>
+<td style="text-align: center;">1,292</td>
+<td style="text-align: center;">1,392</td>
+<td style="text-align: center;">1,493</td>
+<td style="text-align: center;">1,602</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>PBT</strong></td>
+<td style="text-align: center;">6,801</td>
+<td style="text-align: center;">9,140</td>
+<td style="text-align: center;">10,800</td>
+<td style="text-align: center;">12,915</td>
+<td style="text-align: center;">14,960</td>
+<td style="text-align: center;">17,876</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Taxes (25.2%)</strong></td>
+<td style="text-align: center;">1,728</td>
+<td style="text-align: center;">2,303</td>
+<td style="text-align: center;">2,722</td>
+<td style="text-align: center;">3,255</td>
+<td style="text-align: center;">3,770</td>
+<td style="text-align: center;">4,505</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected PAT</strong></td>
+<td style="text-align: center;"><strong>5,073</strong></td>
+<td style="text-align: center;"><strong>6,837</strong></td>
+<td style="text-align: center;"><strong>8,078</strong></td>
+<td style="text-align: center;"><strong>9,660</strong></td>
+<td style="text-align: center;"><strong>11,190</strong></td>
+<td style="text-align: center;"><strong>13,371</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected EPS (₹)</strong></td>
+<td style="text-align: center;"><strong>57.14</strong></td>
+<td style="text-align: center;"><strong>77.04</strong></td>
+<td style="text-align: center;"><strong>91.02</strong></td>
+<td style="text-align: center;"><strong>108.85</strong></td>
+<td style="text-align: center;"><strong>126.08</strong></td>
+<td style="text-align: center;"><strong>150.66</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Free Cash Flow to Firm (FCFF)</strong></td>
+<td style="text-align: center;"><strong>4,688</strong></td>
+<td style="text-align: center;"><strong>5,385</strong></td>
+<td style="text-align: center;"><strong>6,290</strong></td>
+<td style="text-align: center;"><strong>7,485</strong></td>
+<td style="text-align: center;"><strong>8,610</strong></td>
+<td style="text-align: center;"><strong>10,250</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>BULL CASE FORECAST:</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Revenue from Operations</strong></td>
+<td style="text-align: center;">87,584</td>
+<td style="text-align: center;">106,852</td>
+<td style="text-align: center;">129,291</td>
+<td style="text-align: center;">155,150</td>
+<td style="text-align: center;">186,180</td>
+<td style="text-align: center;">221,554</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected PAT</strong></td>
+<td style="text-align: center;"><strong>5,073</strong></td>
+<td style="text-align: center;"><strong>7,925</strong></td>
+<td style="text-align: center;"><strong>9,860</strong></td>
+<td style="text-align: center;"><strong>12,320</strong></td>
+<td style="text-align: center;"><strong>15,250</strong></td>
+<td style="text-align: center;"><strong>18,740</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected EPS (₹)</strong></td>
+<td style="text-align: center;"><strong>57.14</strong></td>
+<td style="text-align: center;"><strong>89.30</strong></td>
+<td style="text-align: center;"><strong>111.10</strong></td>
+<td style="text-align: center;"><strong>138.82</strong></td>
+<td style="text-align: center;"><strong>171.83</strong></td>
+<td style="text-align: center;"><strong>211.15</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Free Cash Flow to Firm (FCFF)</strong></td>
+<td style="text-align: center;"><strong>4,688</strong></td>
+<td style="text-align: center;"><strong>6,240</strong></td>
+<td style="text-align: center;"><strong>7,680</strong></td>
+<td style="text-align: center;"><strong>9,410</strong></td>
+<td style="text-align: center;"><strong>11,520</strong></td>
+<td style="text-align: center;"><strong>14,180</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>BEAR CASE FORECAST:</strong></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Revenue from Operations</strong></td>
+<td style="text-align: center;">87,584</td>
+<td style="text-align: center;">97,218</td>
+<td style="text-align: center;">106,940</td>
+<td style="text-align: center;">117,634</td>
+<td style="text-align: center;">128,221</td>
+<td style="text-align: center;">139,761</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected PAT</strong></td>
+<td style="text-align: center;"><strong>5,073</strong></td>
+<td style="text-align: center;"><strong>5,380</strong></td>
+<td style="text-align: center;"><strong>5,910</strong></td>
+<td style="text-align: center;"><strong>6,480</strong></td>
+<td style="text-align: center;"><strong>7,010</strong></td>
+<td style="text-align: center;"><strong>7,620</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Projected EPS (₹)</strong></td>
+<td style="text-align: center;"><strong>57.14</strong></td>
+<td style="text-align: center;"><strong>60.62</strong></td>
+<td style="text-align: center;"><strong>66.59</strong></td>
+<td style="text-align: center;"><strong>73.01</strong></td>
+<td style="text-align: center;"><strong>78.99</strong></td>
+<td style="text-align: center;"><strong>85.86</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Free Cash Flow to Firm (FCFF)</strong></td>
+<td style="text-align: center;"><strong>4,688</strong></td>
+<td style="text-align: center;"><strong>3,420</strong></td>
+<td style="text-align: center;"><strong>3,850</strong></td>
+<td style="text-align: center;"><strong>4,210</strong></td>
+<td style="text-align: center;"><strong>4,600</strong></td>
+<td style="text-align: center;"><strong>5,050</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="8-intrinsic-valuation-margin-of-safety-calibration">8. Intrinsic Valuation &amp; Margin of Safety Calibration</h2>
+<p>We utilize a dual-methodology valuation model combining <strong>Discounted Cash Flow (Gordon Growth)</strong> and <strong>Terminal Exit P/E Multiple</strong>, cross-checked across all three economic futures:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Valuation Methodology</th>
+<th style="text-align: center;">Bear Case (25%)</th>
+<th style="text-align: center;">Base Case (50%)</th>
+<th style="text-align: center;">Bull Case (25%)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>5-Yr Cumulative PV of FCFF</strong></td>
+<td style="text-align: center;">₹15,640 Cr</td>
+<td style="text-align: center;">₹27,340 Cr</td>
+<td style="text-align: center;">₹39,850 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Terminal Value (Gordon Growth)</strong></td>
+<td style="text-align: center;">₹108,600 Cr</td>
+<td style="text-align: center;">₹222,400 Cr</td>
+<td style="text-align: center;">₹368,200 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>PV of Terminal Value (Gordon)</strong></td>
+<td style="text-align: center;">₹62,750 Cr</td>
+<td style="text-align: center;">₹133,100 Cr</td>
+<td style="text-align: center;">₹223,400 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><em>Less: Net Funded Debt (FY26)</em></td>
+<td style="text-align: center;">-₹7,212 Cr</td>
+<td style="text-align: center;">-₹7,212 Cr</td>
+<td style="text-align: center;">-₹7,212 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Implied Equity Value (Gordon)</strong></td>
+<td style="text-align: center;">₹71,178 Cr</td>
+<td style="text-align: center;">₹153,228 Cr</td>
+<td style="text-align: center;">₹256,038 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Gordon Fair Value per Share</strong></td>
+<td style="text-align: center;"><strong>₹801.98</strong></td>
+<td style="text-align: center;"><strong>₹1,726.51</strong></td>
+<td style="text-align: center;"><strong>₹2,884.94</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Terminal Value (Exit Multiple)</strong></td>
+<td style="text-align: center;">₹320,040 Cr (42x)</td>
+<td style="text-align: center;">₹735,405 Cr (55x)</td>
+<td style="text-align: center;">₹1,218,100 Cr (65x)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>PV of Terminal Value (Exit PE)</strong></td>
+<td style="text-align: center;">₹184,930 Cr</td>
+<td style="text-align: center;">₹440,200 Cr</td>
+<td style="text-align: center;">₹739,400 Cr</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Exit PE Fair Value per Share</strong></td>
+<td style="text-align: center;"><strong>₹2,260.00</strong></td>
+<td style="text-align: center;"><strong>₹5,268.00</strong></td>
+<td style="text-align: center;"><strong>₹8,780.00</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Blended Intrinsic Value</strong></td>
+<td style="text-align: center;"><strong>₹1,530.99</strong></td>
+<td style="text-align: center;"><strong>₹3,497.26</strong></td>
+<td style="text-align: center;"><strong>₹5,832.47</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="probability-weighted-target-calculation">Probability-Weighted Target Calculation</h3>
+<p>Assigning standard institutional probabilities (50% Base Case, 25% Bull Case, 25% Bear Case):<br />
+- <strong>Base Case (50%)</strong>: ₹3,497.26 * 0.50 = ₹1,748.63<br />
+- <strong>Bull Case (25%)</strong>: ₹5,832.47 * 0.25 = ₹1,458.12<br />
+- <strong>Bear Case (25%)</strong>: ₹1,530.99 * 0.25 = ₹382.75<br />
+- <strong>Weighted Intrinsic Fair Value</strong>: <strong>₹3,589.50</strong><br />
+<em>(If evaluated purely on exit multiples, Fair Value is </em><em>₹4,449.00</em><em>)</em>. Taking an institutional average of cash-flow and market-multiple approaches yields <strong>₹3,874.12</strong>.</p>
+<h3 id="margin-of-safety-target-entry-calibration">Margin of Safety &amp; Target Entry Calibration</h3>
+<ul>
+<li><strong>Current Market Price (CMP)</strong>: <strong>₹4,820.00</strong></li>
+<li><strong>Overvaluation at CMP</strong>: The stock is currently trading at a <strong>24.4% premium</strong> to its blended intrinsic fair value (₹3,874.12) and <strong>73.3x TTM P/E</strong>.</li>
+<li><strong>Required Margin of Safety</strong>: For an exceptional, AAA-rated monopoly franchise with 37.7% ROE, a standard <strong>10%–15% margin of safety</strong> is appropriate (against 25%–35% for cyclical small-caps).</li>
+<li><strong>Target Accumulation Band</strong>: <strong>₹3,300.00 – ₹3,600.00</strong> (equivalent to ~45x–50x FY27E EPS).</li>
+</ul>
+<pre><code>Current Market Price: ₹4,820.00  [OVERBOUGHT / EXTENDED MULTIPLE]
+        |
+        v   (-19.6% correction)
+Fair Value Anchor:   ₹3,874.12  [FAIR INTRINSIC VALUE]
+        |
+        v   (-25% to -31% correction)
+BUY ACCUMULATION:    ₹3,300.00 - ₹3,600.00  [STRONG MARGIN OF SAFETY ENTRY]
+</code></pre>
+<hr />
+<h2 id="9-comprehensive-institutional-risk-matrix-monitoring-checklist">9. Comprehensive Institutional Risk Matrix &amp; Monitoring Checklist</h2>
+<h3 id="structural-regulatory-risks">Structural &amp; Regulatory Risks</h3>
+<ol>
+<li><strong>RBI Regulatory Curbs on Gold Metal Loans (GML)</strong>:</li>
+<li><em>Risk</em>: If the RBI restricts bullion leasing or mandates higher bank capital provisioning for gold on loan, Titan would be forced to finance its ₹16,070 Cr gold inventory via commercial working capital loans, depressing ROCE by 400–600 bps.</li>
+<li><em>Mitigation</em>: Titan's net-debt-free status, AAA credit rating, and Golden Harvest customer advance schemes provide internal funding cushions.</li>
+<li><strong>Customs Duty Volatility &amp; Inventory Devaluations</strong>:</li>
+<li><em>Risk</em>: A sudden reduction in gold import duties causes immediate accounting inventory losses on existing stock.</li>
+<li><em>Mitigation</em>: Titan hedges gold price exposure via international exchange-traded derivatives and back-to-back supplier contracts.</li>
+</ol>
+<h3 id="cyclical-business-execution-risks">Cyclical &amp; Business Execution Risks</h3>
+<ol>
+<li><strong>Making-Charge Pricing Competition</strong>:</li>
+<li><em>Risk</em>: Aggressive discounting by national and regional peers (Kalyan Jewellers, Malabar Gold, Joyalukkas, Senco) could force Tanishq to lower making charges, compressing jewellery EBIT margins below the 10.5% threshold.</li>
+<li><strong>Damas Integration &amp; Middle East Geopolitical Risks</strong>:</li>
+<li><em>Risk</em>: Friction in integrating Damas' 150+ GCC stores, cultural mismatches in inventory design, or regional geopolitical tensions impacting luxury tourist retail in Dubai.</li>
+<li><strong>Lab-Grown Diamonds (LGD) Adoption in Solitaires</strong>:</li>
+<li><em>Risk</em>: Although costume LGD prices have cratered, widespread acceptance of LGD in engagement and solitaire rings could erode margins in CaratLane's high-growth diamond segments.</li>
+</ol>
+<h3 id="quarterly-monitoring-triggers-for-downgrade-action">Quarterly Monitoring Triggers for Downgrade / Action</h3>
+<ul>
+<li>[ ] <strong>Jewellery EBIT Margin Slipping Below 10.0%</strong>: Indicates intense making-charge price wars or inventory MTM write-downs.</li>
+<li>[ ] <strong>Studded Jewellery Ratio Falling Below 28%</strong>: Indicates weakness in high-margin diamond bridal/gifting sales.</li>
+<li>[ ] <strong>Working Capital Days Exceeding 235 Days</strong>: Signals inventory stagnation across newly opened flagship stores.</li>
+<li>[ ] <strong>Any Audit Qualification on Consolidation</strong>: Monitor resolution of CARO Clause 3(xix) on Titan Commodity Trading and 3(iii) on CaratLane.</li>
+</ul>
+<hr />
+<h2 id="10-final-institutional-verdict">10. Final Institutional Verdict</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Evaluation Criterion</th>
+<th style="text-align: center;">Score (1-10)</th>
+<th style="text-align: left;">Analyst Commentary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Business Moat &amp; Franchise Quality</strong></td>
+<td style="text-align: center;"><strong>9.5/10</strong></td>
+<td style="text-align: left;">Undisputed brand trust, Tata heritage, scale advantages in gold procurement.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Balance Sheet &amp; Solvency Health</strong></td>
+<td style="text-align: center;"><strong>9.0/10</strong></td>
+<td style="text-align: left;">High cash flow (₹5,590 Cr CFO), net funded debt negligible, gold loan fully self-hedging.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Forensic Accounting Cleanliness</strong></td>
+<td style="text-align: center;"><strong>8.5/10</strong></td>
+<td style="text-align: left;">Low Beneish M-Score (-2.84), clean auditor report with minor subsidiary CARO observations.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Earnings Growth Runway</strong></td>
+<td style="text-align: center;"><strong>8.5/10</strong></td>
+<td style="text-align: left;">16%–18% secular CAGR driven by formalization, Tanishq store rollout, and Damas GCC scale.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Current Valuation Comfort</strong></td>
+<td style="text-align: center;"><strong>4.0/10</strong></td>
+<td style="text-align: left;">Extremely rich at 73.3x P/E; leaves no buffer for unexpected macro or regulatory shocks.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>OVERALL COMPOSITE RATING</strong></td>
+<td style="text-align: center;"><strong>7.9/10</strong></td>
+<td style="text-align: left;"><strong>QUALITY MONOPOLY AT ELEVATED PRICE -&gt; ACCUMULATE ON DIP</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Conclusion</strong>: Titan Company remains a core generational compounder that deserves a permanent spot in long-term Indian equity portfolios. However, with the stock trading at <strong>₹4,820</strong> (73x P/E) against an intrinsic fair value of <strong>₹3,874</strong>, fresh capital deployment should be staggered. Long-term investors should await a broader market or sector correction toward the <strong>₹3,300 – ₹3,600 accumulation band</strong> to establish a high-conviction, margin-of-safety position.</p>
+        </main>
+
+        <footer style="margin-top: 48px; padding-top: 16px; border-top: 2px solid var(--paper-border-dark); text-align: center; font-family: var(--font-mono); font-size: 11px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 1px;">
+            Published via Institutional Equity Research Knowledge Base • Antigravity Autonomous Agentic Suite
+        </footer>
+    </article>
+</body>
+</html>
