@@ -19,6 +19,7 @@ fundamental_analysis/
 │   ├── daily_market_mover_analyst/    # [Specialized Skill] Intraday & Short-Term Movers / News Drivers
 │   └── financial_newspaper_report_publisher/ # [Specialized Skill] Traditional Broadsheet HTML Publisher
 ├── reports/                           # Comprehensive Company Research & Forensic Dossiers
+│   ├── bajajfinserv/                  # Bajaj Finserv Limited (Markdown Dossier & Newspaper HTML Edition)
 │   ├── titan/                         # Titan Company Limited (Markdown Dossier & Newspaper HTML Edition)
 │   ├── wakefit/                       # Wakefit Innovations Ltd (Markdown Dossier & Newspaper HTML Edition)
 │   └── daily_movers/                  # Daily Market Mover Diagnostics & Catalyst Dissections
@@ -34,6 +35,7 @@ fundamental_analysis/
 
 | Company / Ticker | Sector | Primary Documents Audited | Recommendation & Fair Value | Institutional Deliverables |
 | :--- | :--- | :--- | :--- | :--- |
+| **Bajaj Finserv Limited** (`BAJAJFINSV`) | Financial Services / Diversified Conglomerate | Annual Report FY26, Q1 FY27 Concall, Q4 FY26 Concall, Q3 FY26 Concall, Screener 12-Yr Model | **ACCUMULATE / BUY ON DIPS**<br>Fair Value: **₹2,133.82**<br>Entry Band: **₹1,600 – ₹1,720** | • [Markdown Research Dossier](reports/bajajfinserv/BAJAJFINSV_EQUITY_RESEARCH_REPORT.md)<br>• [Financial Times (FT.com) Edition (HTML)](reports/bajajfinserv/BAJAJFINSV_EQUITY_RESEARCH_REPORT.html) |
 | **Titan Company Limited** (`TITAN`) | Consumer Discretionary / Luxury Retail | Annual Report FY26, Q1 FY27 Concall, Q3 FY26 Concall, Q4 FY25 Concall, Screener 12-Yr Model | **REDUCE / ACCUMULATE ON DIP**<br>Fair Value: **₹3,874.12**<br>Entry Band: **₹3,300 – ₹3,600** | • [Markdown Research Dossier](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.md)<br>• [Financial Times (FT.com) Edition (HTML)](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.html) |
 | **Wakefit Innovations Limited** | D2C Home & Sleep Solutions | Draft Red Herring Prospectus (DRHP Dec 2025), Q1 FY27 Concall Transcript, 3-Yr Financials | **CAUTION / WAIT FOR VALUE**<br>Fair Value: **₹115.76**<br>Entry Band: **₹105 – ₹115** | • [Markdown Research Dossier](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.md)<br>• [Financial Times (FT.com) Edition (HTML)](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.html) |
 
