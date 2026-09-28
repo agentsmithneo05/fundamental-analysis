@@ -1,0 +1,354 @@
+=== PAGE 444 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+441
+Annual Report 2025-26 Titan Company Limited
+ Fair value measurement
+  The fair value at grant date is determined using the Black-Scholes Model which takes into account the exercise price, 
+the term of the option, the share price at grant date and expected price volatility of the underlying share, the expected 
+dividend yield and the risk free interest rate for the term of the option.
+  The key inputs used in Black-Scholes Model for calculating fair value of options under the scheme as on the date of grant 
+are as follows:
+  The weighted average remaining contractual life of the options outstanding as of 31st March, 2026 was 0.23 years.
+  The fair value of the options is estimated on the date of grant using the Black-Scholes-Merton Model with the following 
+assumptions:
+Particulars For the year ended 
+31st March 2026
+For the year ended 
+31st March 2025
+No of options granted  -  61,700 
+Vesting period  -  3 years 
+Dividend yield (%)  -  0.30 
+Volatility rate (%)  - 40.0-43.1
+Risk free rate  - 6.8-7.0
+Expected life of options (years)  -  3.0 
+Weighted average fair value of options per share (`)  -  - 
+Weighted average share price (`)  -  3,477 
+33.2 Shares reserved for issue under Employee Stock Option Scheme
+  During the Financial Year 2017-18, the Subsidiary CaratLane Trading Private Limited introduced CaratLane Stock Option 
+Plan 2017 (‘the Plan’). This Plan supersedes the following stock options and stock option plans:
+ a. Executive Management Stock Option Scheme 2009
+ b.  CaratLane Trading India Private Limited Stock Option Scheme for Consultants, 2013
+ c.  Senior Management Stock Option Scheme, 2012 
+  As per the plan, Board of Directors grants options to the employees of the Company. The vesting period of the option is 
+one to four years from the date of grant. Options granted under the Scheme can be exercised within a period of six years 
+from the date of vesting. For employees leaving the organisation, an option can be exercised within 3 months from the 
+date of resignation.
+ A maximum of 7,14,017 options are issuable under this plan. The movement in options issued are as below:
+ Cash settled options
+Particulars For the year ended 
+31st March 2026
+For the year ended 
+31st March 2025
+Options outstanding at the beginning of the year  21,387  52,812 
+Options granted during the year  -  - 
+Options forfeited during the year  -  (15,000)
+Options converted to cash settled during the year (Refer note below)  (16,937)  - 
+Options settled during the year  -  (16,425)
+Outstanding at the end of the year  4,450  21,387 
+
+=== PAGE 445 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+442
+ Note:
+  As at 31st March 2025, there are 21,387 options outstanding pending settlement, of which 16,600 have vested and 4,787 
+are unvested. These options have been fair valued at ` 3,844 per option amounting to ` 7.23 crore. The impact of fair 
+valuation of cash settled ESOP has been credited to statement of profit and loss amounting to ` 3.54 crore. Further 15,000 
+options having value of ` 5.41 crore have been forfeited in the current year. As at 31st March 2026, there are 4,450 options 
+outstanding fully vested pending settlement. These options have been fair valued at ` 3,844 per option amounting to 
+` 2 crore.
+ Fair value measurement 
+  The fair value at grant date is determined using the Black-Scholes-Merton Model which takes into account the exercise 
+price, the term of the option, the share price at grant date and expected price volatility of the underlying share, the 
+expected dividend yield and the risk free interest rate for the term of the option.
+ The fair value of the options is estimated using the Black-Scholes-Merton Model with the following assumptions:
+` in crore
+Particulars 31st March 2026 31st March 2025
+Fair Value  3,844  3,844 
+Share Price  3,845  3,845 
+Risk free rate (%) 6.73% 6.73%
+Adjusted Beta  1.53  1.53 
+Equity Risk premium 6.52% 6.52%
+Country risk premium 1.60% 1.60%
+India Inflation 4.00% 4.00%
+US Inflation 2.00% 2.00%
+Average Cost of Equity 13.26% 13.26%
+No. of options  4,450  21,387 
+34.1  Related party disclosures:
+i) Relationships
+Names of related parties and description of relationship:
+a) Promoters Tamilnadu Industrial Development Corporation Limited &  
+Tata Sons Private Limited
+b) Associate Green Infra Wind Power Theni Limited
+c) Joint Venture Roberto Coin Middle East LLC
+d)  Key Management 
+Personnel
+Mr. C K Venkataraman, Managing Director (upto 31st December 2025)
+Mr. Ajoy Chawla, Managing Director (from 1st January 2026)
+Mr. Ashok Sonthalia, Chief Financial Officer
+Mr. Dinesh Shetty, General Counsel and Company Secretary
+Non - Executive Directors
+Mr. N N Tata
+Mr. Ashwani Puri
+Mr. B Santhanam
+Dr. Mohanasankar Sivaprakasam
+
+=== PAGE 446 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+443
+Annual Report 2025-26 Titan Company Limited
+Ms. Sindhu Gangadharan (upto 8th June 2025)
+Mr. Sandeep Singhal
+Mr. V Arun Roy 
+Mr. Sandeep Nanduri (upto 4th January 2026)
+Ms. Mariam Pallavi Baldev 
+Mr. Anil Chaudhry 
+Ms. Shalini Kapoor (from 9th May 2025)
+Mr. P B Balaji (upto 20th August 2025)
+Mr. Puneet Chhatwal (from 28th August 2025)
+Ms. Sandhya Venugopal Sharma (from 4th January 2026)
+e)  Group entities 
+(Wherever there 
+are transactions)
+Tata Capital Housing Finance Limited Tata Consultancy Services Limited
+Infiniti Retail Limited Tata Housing Development Company Limited
+Kriday Realty Private Limited Smart Value Homes (Peenya Project) Private 
+Limited
+Tata International Limited Tata Capital Limited
+Tata Limited Tata Play Limited
+Tata AIG General Insurance Company Limited Promont Hilltop Private Limited
+Tata Industries Limited Tata Interactive Systems AG
+Tata Value Homes Limited Tata Steel Advanced Materials Limited
+Ardent Properties Private Limited Tata Autocomp Systems Limited
+Tata AIA Life Insurance Company Limited Tata Teleservices Limited
+Tata Teleservices (Maharashtra) Limited Sector 113 Gatevida Developers Private Limited
+Tata Cleantech Capital Limited Tata Electronics Private Limited
+Tata Realty and Infrastructure Limited Trent Hypermarket Private Limited
+AirAsia (India) Limited Stryder Cycle Private Limited
+HL Promoters Private Limited Supermarket Grocery Supplies Private Limited
+Tata Steel Downstream Products Limited Tata Communications Limited
+Kolkata-One Excelton Private Limited Innovative Retail Concepts Private Limited
+Piem Hotels Limited Land Kart Builders Private Limited
+Rallis India Limited Princeton Infrastructure Private Limited
+Tata Advanced Systems Limited Tata 1Mg Healthcare Solutions Private Limited
+Tata Chemicals Limited Tata Autocomp Hendrickson Suspensions Private 
+Limited
+Tata Consumer Products Limited Tata Coffee Limited
+Tata Metaliks Limited Tata Digital Private Limited
+Tata Motors Limited Tata Motors Finance Limited
+Tata Power Solar Systems Limited Tata Power Delhi Distribution Limited
+Tata Steel Limited Tata SIA Airlines Limited
+The Indian Hotels Company Limited Tata Toyo Radiator Limited
+The Tinplate Company Of India Limited The Tata Power Company Limited
+Trent Limited TM Automotive Seating Systems Private Limited
+Voltas Limited United Hotels Limited
+Indusface Private Limited Roots Corporation Limited
+Stt Global Data Centres India Private Limited Benares Hotels Limited
+
+=== PAGE 447 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+444
+Tata Business Hub Limited Tata Communications Payment Solutions Limited
+Tata Medical And Diagnostics Limited Tata Technologies Limited
+TML Business Services Limited Brainbees Solutions Private Limited
+Tata Motors Passenger Vehicles Limited Tata Asset Management Private Limited
+Tata Power EV Charging Solutions Limited 
+(formerly known as TP Solapur Limited)
+Tata Play Broadband Private Limited
+Tata Projects Limited Tata Power Renewable Energy Limited
+The Associated Building Company Limited Tata Unistore Limited
+TP Southern Odisha Distribution Limited TP Ajmer Distribution Limited
+Air India Limited Cnergyis Infotech India Private
+Hicare Services Pvt Ltd Iit Madras Research Park
+Keya Foods International Mailit Mailroom Management Services
+Novamesh Limited Tata Autocomp Gy Batteries Pvt Ltd
+Tata Housing Development Co. Ltd Tata Payments Limited
+Tata Power Company Limited Tata Sons Private Limited
+Tata Teleservices Ltd Ahmedabad Toyota Material Handling India Pvt
+915 Labs LLC Harita NTI Limited
+Tata Advanced Materials Limited Tata Electronics Systems Solutions Private Limited
+Tata SmartFoodz Limited TEL Components Private Limited
+Titanx Engine Cooling Inc Toyota Kirloskar Auto Parts Pvt Ltd
+TVS Motor Company Indonesia
+Tata Electronics Products and Solutions Private 
+Limited
+Tata Semiconductor Assembly and Test Private 
+Limited
+Tata Elxsi Limited
+Tidel Park Ltd
+e)  Post employee 
+benefit plan 
+entities
+Titan Watches Provident Fund Titan Industries Gratuity Fund
+Titan Watches Super Annuation Fund Titan Employee Stock Option Trust
+ii) Related party transactions during the year:
+` in crore
+Relationship For the year ended  
+31st March 2026
+For the year ended  
+31st March 2025
+Purchase of property, plant and equipment
+Infiniti Retail Limited Group entity  0  1 
+Voltas Limited Group entity  0  1 
+Tata Elxsi Group entity  3  - 
+Others Group entity  5  14 
+Other Purchases
+Tata Electronics Private Limited Group entity  -  0 
+Harita NTI Limited Group entity  0  0 
+Toyota Kirloskar Auto Parts Pvt Ltd Group entity  0 
+Others Group entity  -  0 
+
+=== PAGE 448 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+445
+Annual Report 2025-26 Titan Company Limited
+` in crore
+Relationship For the year ended  
+31st March 2026
+For the year ended  
+31st March 2025
+Purchases of services (other expenses)
+Tata Sons Private Limited Promoter  0  0 
+Tata Consultancy Services Limited Group entity  51  64 
+Tata AIG General Insurance Company Limited Group entity  10  0 
+Tata Power Renewable Energy Limited Group entity  1  - 
+The Indian Hotels Company Limited Group entity  6  4 
+Tata AIA Life Insurance Company Limited Group entity  8  5 
+Tata Unistore Limited Group entity  2  1 
+Tata Teleservices Limited Group entity  0  - 
+Tata Communications Limited Group entity  2  3 
+Tata Technologies Group entity  0  - 
+Novamesh Limited Group entity  0  - 
+Tidel Park Ltd Group entity  1  - 
+Others Group entity  27  19 
+Revenue from operations
+Tata Sons Private Limited Promoter  0  1 
+Tata Play Limited Group entity  0  - 
+Tata Consultancy Services Limited Group entity  4  10 
+Infiniti Retail Limited Group entity  0  - 
+Tata Electronics Private Limited Group entity  47  18 
+Tata Motors Passenger Vehicles Limited Group entity  0  0 
+The Tata Power Company Limited Group entity  9  0 
+Stryder Cycle Private Limited Group entity  0  0 
+The Indian Hotels Company Limited Group entity  3  2 
+Toyota Kirloskar Auto Parts Private Limited Group entity  5  0 
+Tata Electronics Systems Solutions Private Limited Group entity  44  3 
+Tata Semiconductor Assembly and Test Private Limited Group entity  1 
+Tata Electronics Products and Solutions Private Limited Group entity  166 
+Others Group entity  31  30 
+Rent
+Tata Sons Private Limited Promoter  1  1 
+Indian Hotels Company Limited Group entity  0  0 
+Others KMP  0  - 
+Others Group entities  0  1 
+Power and fuel
+Green Infra Wind Power Theni Limited Associate  5  4 
+Others Group entities  0  - 
+
+=== PAGE 449 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+446
+` in crore
+Relationship For the year ended  
+31st March 2026
+For the year ended  
+31st March 2025
+Dividend paid
+Tamilnadu Industrial Development Corporation Limited Promoter  272  272 
+Tata Sons Private Limited Promoter  204  204 
+Key managerial personnel compensation
+Commission and sitting fees Promoter  2  2 
+Commission and sitting fees Directors  11  9 
+Managerial remuneration KMP  37  33 
+Performance stock units (fair value of options) KMP  12  3 
+Gratuity and compensated absences KMP  4  2 
+Pension paid Director  0  1 
+Miscellaneous expense
+Tata Sons Private Limited (Royalty) Promoter  129  90 
+Tata AIG General Insurance Company Limited  Group entity  -  1 
+Tata Power Renewable Energy Limited  Group entity  -  1 
+Tata Electronics Private Limited  Group entity  -  - 
+Innovative Retail Concepts Pvt Ltd  Group entity  0  - 
+Roots Corporation Limited  Group entity  0  - 
+Others  Group entities  -  1 
+Reimbursement towards rendering of services/expenses
+Tata Sons Private Limited Promoter  -  - 
+Others Group entity  0  2 
+Inter-corporate deposit placed
+Tata Realty & Infrastructure Limited Group entity  -  32 
+Inter-corporate deposit redeemed
+Tata Realty and Infrastructure Limited Group entity  -  175 
+Interest and Corporate guarantee commission income
+Tata Realty and Infrastructure Limited Group entity  3  3 
+Tata Housing Development Company Limited Group entity  -  - 
+Miscellaneous Income
+TitanX Engine Cooling Inc. Group entity  -  0 
+Toyota Kirloskar Auto Parts Private Limited Group entity  0  - 
+Tata SmartFoodz Limited Group entity  -  - 
+Tata Advanced System Limited Group entity  1  - 
+Tata Electronics Private Limited Group entity  1  - 
+
+=== PAGE 450 ===
+Notes to consolidated financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+447
+Annual Report 2025-26 Titan Company Limited
+` in crore
+Relationship For the year ended  
+31st March 2026
+For the year ended  
+31st March 2025
+Contribution to Trust funds
+Titan Watches Provident Fund Others  158  144 
+Titan Watches Super Annuation Fund Others  17  14 
+Titan Industries Gratuity Fund Others  91  38 
+iii) Related party closing balances as on balance sheet date:
+` in crore
+Relationship As at 
+31st March 2026
+As at 
+31st March 2025
+Outstanding - receivables
+Tata Consultancy Services Limited Group entity  -  5 
+Tata Projects Limited Group entity  -  - 
+Tata Electronics Private Limited  Group entities  2  0 
+Tata Digital Private Limited  Group entities  1  4 
+Tata Projects Limited  Group entities  1  1 
+Tata Electronics Systems Solutions Private Limited  Group entities  15  - 
+Tata Semiconductor Assembly and Test Private Limited  Group entities  0  - 
+Tata Electronics Products and Solutions Private Limited  Group entities  7  - 
+Others Group entity  -  17 
+Others KMP  13  0 
+Outstanding - payables
+Tamilnadu Industrial Development Corporation Limited Promoter  (2)  (2)
+Tata Sons Private Limited Promoter  (116)  (75)
+Tata Consultancy Services Limited Group entity  (4)  - 
+Tata Housing Development Company Limited Group entity  -  (0)
+Tata Electronics Private Limited Group entity  -  (10)
+Tata SmartFoodz Limited Group entity  -  (0)
+Tata Advanced System Limited Group entity  -  (1)
+C K Venkataraman KMP  -  (8)
+Ajoy Chawla KMP  (2)  - 
+Others Directors  (9)  (7)
+Others Group entities  (8)  (2)
+Note:
+a)  The above information has been determined to the extent such parties have been identified on the basis of information 
+available with the Company.
+

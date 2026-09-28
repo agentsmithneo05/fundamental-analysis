@@ -17,13 +17,23 @@ fundamental_analysis/
 │   ├── dynamic_financial_modeler/     # [Specialized Skill] 3-Scenario Projections (Base, Bull, Bear)
 │   └── daily_market_mover_analyst/    # [Specialized Skill] Intraday & Short-Term Movers / News Drivers
 ├── reports/                           # Comprehensive Company Research & Forensic Dossiers
-│   ├── wakefit/                       # Wakefit Innovations Ltd (Multi-Page Forensic Dossier)
+│   ├── titan/                         # Titan Company Limited (Multi-Page Forensic Dossier & 3-Scenario DCF)
+│   ├── wakefit/                       # Wakefit Innovations Ltd (Multi-Page Forensic Dossier & IPO Diligence)
 │   └── daily_movers/                  # Daily Market Mover Diagnostics & Catalyst Dissections
 ├── financial_modelling/               # Learn Financial Modelling - Step by Step (34 Sessions)
 ├── mutual_fund_analysis/              # Mutual Fund Analysis - Full Course 2024-25 (16 Sessions)
 ├── basics_of_equity_research/         # Basics of Equity Research (49 Sessions)
 └── code/                              # Extraction, ingestion & sync utilities
 ```
+
+---
+
+## 📊 Institutional Company Research Reports
+
+| Company / Ticker | Sector | Primary Documents Audited | Recommendation & Fair Value | Report Dossier Link |
+| :--- | :--- | :--- | :--- | :--- |
+| **Titan Company Limited** (`TITAN`) | Consumer Discretionary / Luxury Retail | Annual Report FY26, Q1 FY27 Concall, Q3 FY26 Concall, Q4 FY25 Concall, Screener 12-Yr Model | **REDUCE / ACCUMULATE ON DIP**<br>Fair Value: **₹3,874.12**<br>Entry Band: **₹3,300 – ₹3,600** | [Titan Institutional Dossier](reports/titan/TITAN_EQUITY_RESEARCH_REPORT.md) |
+| **Wakefit Innovations Limited** | D2C Home & Sleep Solutions | Draft Red Herring Prospectus (DRHP Dec 2025), Q1 FY27 Concall Transcript, 3-Yr Financials | **CAUTION / WAIT FOR VALUE**<br>Fair Value: **₹115.76**<br>Entry Band: **₹105 – ₹115** | [Wakefit Institutional Dossier](reports/wakefit/WAKEFIT_EQUITY_RESEARCH_REPORT.md) |
 
 ---
 

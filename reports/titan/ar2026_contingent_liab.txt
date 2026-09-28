@@ -1,0 +1,394 @@
+=== PAGE 335 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+332
+ b)  It includes non-current assets amounting to ` 11,468 crore (previous year: ` 10,631 crore)
+ c)   Details of geographical segments for individual markets outside India are not disclosed as the same do not account 
+for more than 10% of the total segment revenues or results or assets.
+ d)   This amount is net of a transfer pricing adjustment of ` 82 crore (previous year: ` Nil crore) made in accordance with 
+the Income Tax Act, 1961, in relation to the intercompany transactions with related parties.
+27 Earnings per share
+ The following table sets forth the computation of basic and diluted earnings per share:
+` in crore
+For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+Profit for the year (` crore)  4,630  3,335 
+Weighted average number of equity shares*  88,70,45,260  88,70,52,227 
+Dilutive effect of Performance stock units outstanding  5,25,582  2,90,283 
+Weighted average number of equity shares outstanding in calculating  
+diluted EPS
+ 88,75,70,842  88,73,42,510 
+Nominal value of shares (`) 1 1
+Earnings per share (`)
+-  Basic  52.20  37.60 
+-  Diluted  52.16  37.58 
+*After adjusting treasury shares of 7,40,900 (previous year: 7,40,900)
+28 Leases
+28.1 Amounts recognised in balance sheet
+` in crore
+Note As at  
+31st March 2026
+As at  
+31st March 2025
+(i)  Right-of-use assets 4
+Buildings  1,572  1,429 
+Leasehold land  20  20 
+ 1,592  1,449 
+(ii)  Lease liabilities
+Non-current 14.2  2,142  1,943 
+Current 16.3  314  282 
+ 2,456  2,225 
+(iii)  Lease receivables
+Non-current 7.3  605  578 
+Current 11.5  70  56 
+ 675  634 
+
+=== PAGE 336 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+333
+Annual Report 2025-26 Titan Company Limited
+28.2 Amounts recognised in the statement of profit and loss
+` in crore
+Note As at  
+31st March 2026
+As at  
+31st March 2025
+(i)  Depreciation and amortisation expense 4
+Buildings  312  287 
+Leasehold land  0  0 
+ 312  287 
+(ii)  Interest expense (included in finance cost) 23  207  186 
+(iii)  Interest income on sub-lease (included in other income) 20  55  50 
+(iv)  Expense relating to short-term leases 25  11  17 
+(v)  Expense relating to variable lease payments 25  12  9 
+(vi)  Rent concessions received during the year 20  2  1 
+(a)   Short-term leases has been accounted for applying Paragraph 6 of Ind AS 116- Leases and accordingly recognised as 
+expense in the statement of profit and loss.
+(b)  For total cash outflow for the year ended 31st March 2026 and 31st March 2025 refer cash flow statement.
+28.3 Maturity analysis of lease receivables    
+  The following table sets out the maturity analysis of lease receivables, showing the undiscounted lease payments to be 
+received after the reporting date
+` in crore
+Other Income As at  
+31st March 2026
+As at  
+31st March 2025
+With in year 1  127  106 
+1 year to 2 years  123  107 
+2 years to 3 years  112  102 
+3 years to 4 years  101  90 
+4 years to 5 years  88  79 
+Over 5 years  502  509 
+28.4 Additional information on variable lease payment:
+  During the year ended 31st March 2026, the Company has incurred an amount of ` 12 crore (Previous year: ` 9 crore) on 
+account of variable lease payments. Variable payment terms ranges from 1% to 25% of net sales from a particular store. 
+Variable payment terms are used for a variety of reasons, including minimising the fixed costs base for newly established 
+stores and stores in malls. Excess of variable lease payments that depend on sales, over the fixed rental, are recognised in 
+the statement of profit or loss in the period in which the condition that triggers those payments occur.
+28.5 Additional information on extension/termination options:
+  Extension and termination options are included in a number of property lease arrangements of the Company. These are 
+used to maximise operational flexibility in terms of managing the assets used in the Company’s operations. The majority of 
+extension and termination options held are exercisable based on mutual consent of the Company and respective lessors.
+
+=== PAGE 337 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+334
+29 Contingent liabilities and commitments
+ Contingent liabilities not provided for - ` 177 crore (Previous year: ` 251 crore) comprising of the following:
+ a)  Goods and Service Tax - ` 9 crore (Previous year: ` 4 crore)
+  (relating to mismatch in statutory returns)
+ b)  Sales tax - ` 40 crore (Previous year: ` 40 crore)
+  (relating to the applicability of rate of tax, computation of tax liability, submission of certain statutory forms)
+ c)  Customs duty - ` 38 crore (Previous year: ` 38 crore)
+  (relating to denial of benefit of exemptions)
+ d)  Excise duty - ` 79 crore (Previous year: ` 79 crore)
+   (relating to denial of exemption by amending the earlier notification, computation of the assessable value, denial of 
+input credit on service tax and excise duty on Jewellery)
+ e)  Income tax - ` 2 crore (Previous year: ` 85 crore)
+  (relating to disallowance of deductions claimed)
+ f)  Others - ` 9 crore (Previous year: ` 5 crore)
+  (relating to miscellaneous claims)
+   The above amounts are based on the notice of demand or the Assessment Orders or notification by the relevant 
+authorities, as the case may be, and the Company is contesting these claims with the respective authorities. Outflows, 
+if any, arising out of these claims would depend on the outcome of the decisions of the appellate authorities and the 
+Company’s rights for future appeals before the judiciary. No reimbursements are expected.
+ g)  Corporate guarantees - ` Nil crore (Previous year: ` Nil crore)
+   (relating to guarantee provided for loans taken by Carat Lane Trading Private Limited, Titan Holdings International 
+FZCO, Titan Global Retail LLC, Titan International QFZ LLC, TCL North America Inc. and Titan Commodity Trading 
+Limited)
+  The movement of the guarantees is given below:
+` in crore
+As at  
+31st March 2026
+As at  
+31st March 2025
+Opening balance  -  1,350 
+Given during the year  -  333 
+Withdrawn/revoked during the year  -  (1,683)
+Closing balance  -  - 
+30  The Company has entered into various contracts with vendors and contractors for the acquisition of plant and machinery 
+of capital nature amounting to ` 122 crore (Previous year: ` 200 crore)
+
+=== PAGE 338 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+335
+Annual Report 2025-26 Titan Company Limited
+31 Employee benefits
+a)  Defined Contribution Plans    
+ i)  The contributions recognised in the statement of profit and loss during the year are as under: 
+` in crore
+Particulars For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+National pension scheme  12  9 
+Superannuation fund  16  13 
+Employee pension fund  13  13 
+ 41  35 
+b)  Defined Benefit Plans
+ i)  The expense recognised in the statement of profit and loss during the year are as under:
+` in crore
+Particulars For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+Provident fund  50  41 
+ 50  41 
+   Contributions are made to the Company’s Employees Provident Fund Trust at predetermined rates in accordance 
+with the Fund rules. The interest rate payable by the Trust to the beneficiaries is as notified by the Government. The 
+Company has an obligation to make good the shortfall, if any, between the return from the investments of the Trust 
+and the notified interest rate and recognises such shortfall as an expense.
+ ii)  Gratuity (Funded)
+   The Company makes annual contributions to The Titan Industries Gratuity Fund in accordance with Code of Social 
+Security, 2020. The scheme provides for lump sum payment to vested employees at retirement, death while in 
+employment, or on termination of employment as per the Company’s Gratuity Scheme. Vesting occurs upon 
+completion of five years of service.
+   The plan is a defined benefit plan which is sponsored by the Company and hence it underwrites all the risks pertaining 
+to the plan. In particular, there is a risk for the Company that an adverse salary growth or inadequate returns on 
+underlying plan assets can result in an increase in cost of providing these benefits to employees in future. Since the 
+benefits are lump sum in nature the plan is not subject to any longevity risks.
+  The principal assumptions used for the purposes of the actuarial valuations were as follows:
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+Discount rate (p.a.) 7.25% 6.75%
+Salary escalation rate (p.a.)
+-  Non-management 8.00% 8.00%
+-  Management 8.00% 8.00%
+
+=== PAGE 339 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+336
+-  The retirement age of employees of the Company varies from 58 to 65 years.
+-   The mortality rates considered are as per the published rates in the Indian Assured Lives Mortality (2012-14)  
+Ult table.
+-  Rates of leaving service (leaving service due to disability included) at specimen ages are as shown below:
+Age (Years) Rates (p.a.)
+For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+21-30 15% 15%
+31-45 5% 5%
+46 and above 2% 2%
+Components of defined benefit costs recognised in the statement of profit and loss are as follows:
+` in crore
+Particulars For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+Current service cost  47  32 
+Past service cost  84  28 
+Interest on net defined benefit liability/(asset)  6  1 
+Total component of defined benefit costs charged to the 
+statement of profit and loss
+ 137  61 
+Components of defined benefit costs recognised in other comprehensive income are as follows:
+` in crore
+Particulars For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+Opening amount recognised in other comprehensive income outside 
+the statement of profit and loss
+ 110  85 
+Remeasurements during the year due to:
+-  Changes in financial assumptions  (31)  22 
+-  Changes in demographic assumptions  -  1 
+-  Experience adjustments  74  (3)
+-  Actual return on plan assets less interest on plan assets  31  5 
+-  Adjustment to recognise the effect of asset ceiling  -  - 
+Closing amount recognised in other comprehensive income*  184  110 
+  * Other comprehensive income disclosed above is gross of tax.
+   The current service cost, past service cost and the net interest expense for the year are included in the ‘Employee 
+benefits expense’ line item in the statement of profit and loss.
+  The remeasurement of the net defined liability is included in other comprehensive income.
+
+=== PAGE 340 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+337
+Annual Report 2025-26 Titan Company Limited
+   The amount included in the balance sheet arising from the entity’s obligation in respect of its defined benefit plans is 
+as follows:
+` in crore
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+Opening net defined benefit liability  85  36 
+Expense charged to the statement of profit and loss 137  61 
+Amount recognised outside the statement of profit and loss  74  25 
+Employer contributions  (85)  (37)
+Closing net defined benefit liability 211  85 
+Movements in the present value of the defined benefit obligation are as follows:
+` in crore
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+Opening defined benefit obligation  598  501 
+Current service cost 47  32 
+Past service cost  84  28 
+Interest on defined benefit obligation  45  35 
+Remeasurement due to
+-   Actuarial gains and losses arising from changes in financial 
+assumptions
+ (31)  21 
+-   Actuarial gains and losses arising from changes in demographic 
+assumptions
+ -  1 
+-  Actuarial gains and losses arising from experience adjustments  74  (3)
+Benefits paid (28)  (17)
+Impact of liability settled  -  - 
+Closing defined benefit obligation 789  598 
+  Movements in the fair value of plan assets are as follows:
+` in crore
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+Opening fair value of plan assets  513  466 
+Employer contributions  85  37 
+Interest on plan assets  38  33 
+Remeasurements due to actuarial return on plan assets less interest 
+on plan assets
+ (31)  (6)
+Benefits paid  (27)  (17)
+Closing fair value of plan assets  578  513 
+
+=== PAGE 341 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+338
+  Sensitivity analysis
+   The key actuarial assumptions to which the defined benefit plans are particularly sensitive to are discount rate, full 
+salary escalation rate and attrition rate. The following table summarises the increase /(decrease) on the reported 
+defined benefit obligation at the end of the reporting period arising on account of an increase or decrease in the 
+assumption by 50 basis points:
+` in crore
+As at 31st March 2026 
+Discount rate Salary 
+escalation rate
+Attrition rate
+Defined benefit obligation on plus 50 basis points  (28)  31  (5)
+Defined benefit obligation on minus 50 basis points  31  (28)  6 
+` in crore
+ As at 31st March 2025 
+Discount rate Salary  
+escalation rate
+Attrition rate
+Defined benefit obligation on plus 50 basis points  (23)  26  (7)
+Defined benefit obligation on minus 50 basis points  26  (23)  8 
+  Maturity profile of defined benefit obligation (Undiscounted)
+` in crore
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+With in year 1  71  44 
+1 year to 2 years  74  44 
+2 years to 3 years  86  56 
+3 years to 4 years  94  63 
+4 years to 5 years  107  71 
+Over 5 years  1,119  892 
+The weighted average duration to the payment of these cash flows is 7.60 years. The Company is expected to 
+contribute ` 206 crore (previous year- ` 85 crore) to the gratuity fund next year.
+A split of plan asset between various asset classes is as below:
+` in crore
+Particulars As at 31st March 2026 As at 31st March 2025
+Quoted Unquoted Quoted Unquoted
+Government debt instruments  194  -  246  - 
+Other debt instruments  119  -  100  - 
+Entity's own equity instruments  49  -  49  - 
+Insurer managed funds  186  -  78  - 
+Others  -  30  -  40 
+ 548  30  473  40 
+
+=== PAGE 342 ===
+Notes to standalone financial statements
+for the year ended 31st March 2026
+Financial Statements
+Statutory Reports
+Corporate Overview
+339
+Annual Report 2025-26 Titan Company Limited
+c)  Unfunded
+The details of other employee benefits which are provided for but not funded are as under:
+` in crore
+Particulars As at  
+31st March 2026
+As at  
+31st March 2025
+Compensated absences
+Non-current  134  193 
+Current  35  27 
+ 169  220 
+32 Performance Stock Units (PSU)
+  The Company introduced Titan Performance Based Stock Units Scheme, 2023 to provide equity-based incentives to 
+all the eligible employees of the Company and its subsidiaries. The plan is administered by the Board Nomination and 
+Remuneration Committee (BNRC) of the Company through a controlled Trust. A maximum of 10,00,000 Performance 
+Stock Unit (PSU) may be granted under the Plan. Each PSU granted under the plan entitles the holder to one equity share 
+of the Company at an exercise price, which is approved by the BNRC.
+  As per the plan, Board of Directors grants options to the employees of the Company. The vesting period of the option is 
+three years from the date of grant. Options granted under the Scheme can be exercised within a period of two years from 
+the date of vesting.
+  BNRC granted PSUs to the eligible employees of the Company and its subsidiaries under the Plan. Subsequent to this grant, 
+the Trust acquired shares from secondary market for the purpose of implementation of the Plan.
+ The movement in options issued are as below:
+Particulars For the year ended  
+31st March 2026 
+For the year ended  
+31st March 2025
+Outstanding at the beginning of the year  7,64,800  7,24,600 
+Options granted during the year  -  61,700 
+Options forfeited during the year  (40,700)  (21,500)
+Options exercised during the year  -  - 
+Outstanding at the end of the year  7,24,100  7,64,800 
+Options exercisable at the end of the year  -  - 
+Weighted average exercise price per option (`)  1  1 
+ Fair value measurement
+  The fair value at grant date is determined using the Black-Scholes Model which takes into account the exercise price, 
+the term of the option, the share price at grant date and expected price volatility of the underlying share, the expected 
+dividend yield and the risk free interest rate for the term of the option.
+  The key inputs used in Black-Scholes Model for calculating fair value of options under the scheme as on the date of grant 
+are as follows:
+  The weighted average remaining contractual life of the options outstanding as of 31st March, 2026 was 0.23 years (Previous 
+year: 1.24 years).
+
