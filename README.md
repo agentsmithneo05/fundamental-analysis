@@ -14,9 +14,11 @@ fundamental_analysis/
 │   ├── concall_interrogator/          # [Specialized Skill] Q&A Interrogation & Guidance Tracking
 │   ├── drhp_prospectus_auditor/       # [Specialized Skill] IPO Dilution, OFS & Objects of Offer
 │   ├── forensic_accounting_auditor/   # [Specialized Skill] Quality of Earnings (QoE) & Accrual Check
-│   └── dynamic_financial_modeler/     # [Specialized Skill] 3-Scenario Projections (Base, Bull, Bear)
+│   ├── dynamic_financial_modeler/     # [Specialized Skill] 3-Scenario Projections (Base, Bull, Bear)
+│   └── daily_market_mover_analyst/    # [Specialized Skill] Intraday & Short-Term Movers / News Drivers
 ├── reports/                           # Comprehensive Company Research & Forensic Dossiers
-│   └── wakefit/                       # Wakefit Innovations Ltd (Multi-Page Forensic Dossier)
+│   ├── wakefit/                       # Wakefit Innovations Ltd (Multi-Page Forensic Dossier)
+│   └── daily_movers/                  # Daily Market Mover Diagnostics & Catalyst Dissections
 ├── financial_modelling/               # Learn Financial Modelling - Step by Step (34 Sessions)
 ├── mutual_fund_analysis/              # Mutual Fund Analysis - Full Course 2024-25 (16 Sessions)
 ├── basics_of_equity_research/         # Basics of Equity Research (49 Sessions)
@@ -30,6 +32,7 @@ fundamental_analysis/
 | Skill Folder | Skill Name | Scope & Analytical Capabilities |
 | :--- | :--- | :--- |
 | [`skills/equity_research_analyst/`](skills/equity_research_analyst/SKILL.md) | **Equity Research Analyst** *(Consolidated Master)* | Complete institutional workflow: Business model, financial statement forensics, concall interrogation, DRHP audits, 3-scenario dynamic financial modeling, and disciplined entry point derivation. |
+| [`skills/daily_market_mover_analyst/`](skills/daily_market_mover_analyst/SKILL.md) | **Daily Market Mover Analyst** *(Specialized)* | Dissecting top gainers/losers, earnings surprises, regulatory actions (USFDA, DGTR, SEBI), order wins, volume multipliers, deliverable %, RSI/VWAP metrics, sector spillovers, and tactical/contrarian verdicts. |
 | [`skills/concall_interrogator/`](skills/concall_interrogator/SKILL.md) | **Concall Interrogator** *(Specialized)* | Earnings call Q&A interrogation, pricing flip-flops, commodity shocks (TDI/Polyol), store payback elongation, and management evasiveness. |
 | [`skills/drhp_prospectus_auditor/`](skills/drhp_prospectus_auditor/SKILL.md) | **DRHP & Prospectus Auditor** *(Specialized)* | Offer for Sale (OFS) ratio audit, Objects of the Offer misallocations (funding rent/ads from equity), CARO bank statement mismatches, and Section 138 lapses. |
 | [`skills/forensic_accounting_auditor/`](skills/forensic_accounting_auditor/SKILL.md) | **Forensic Accounting Auditor** *(Specialized)* | Accrual-to-cash reconciliation (Cumulative CFO vs. PAT), Deferred Tax Asset (DTA) profit illusions, and ROCE vs. WACC hurdle benchmarks. |
