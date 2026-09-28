@@ -1,18 +1,67 @@
 # Fundamental Analysis & Financial Research Knowledge Base
 
-An institutional-grade knowledge repository covering **Equity Research** and **Mutual Fund Analysis**, deconstructed from the foundational courses by Parth Verma (*The Valuation School*).
+An institutional-grade knowledge repository covering **Financial Modeling & Valuation**, **Mutual Fund Analysis**, and **Basics of Equity Research**, deconstructed directly from the masterclasses and courses by Parth Verma (*The Valuation School*).
 
 ---
 
 ## 📂 Repository Architecture
 
-
+```
+fundamental_analysis/
+├── README.md                          # Master curriculum index
+├── financial_modelling/               # Learn Financial Modelling - Step by Step (34 Sessions)
+├── mutual_fund_analysis/              # Mutual Fund Analysis - Full Course 2024-25 (16 Sessions)
+├── basics_of_equity_research/         # Basics of Equity Research (49 Sessions)
+└── code/                              # Extraction, ingestion & sync utilities
+```
 
 ---
 
 ## 📑 Curated Playlists
 
-### 1. [Mutual Fund Analysis — Full Course (16 Sessions)](mutual_fund_analysis/)
+### 1. [Financial Modeling & Valuation — Step by Step (34 Sessions)](financial_modelling/)
+*Focuses on end-to-end financial modeling in Microsoft Excel: 3-statement modeling, forecasting schedules, DCF valuation, WACC & Beta un-levering/re-levering, relative peer comps, sensitivity tables, football field charts, DuPont decomposition, Altman Z-score, LBO modeling, and DRHP IPO analysis.*
+
+| # | Session Topic | Link to Dossier |
+| :-: | :--- | :--- |
+| **01** | Session 1: Introduction to Financial Modeling & Excel Foundation | [session_01_introduction_and_setup](financial_modelling/session_01_introduction_and_setup/README.md) |
+| **02** | Session 2: Historical Financial Statements & Data Extraction | [session_02_historical_data_entry](financial_modelling/session_02_historical_data_entry/README.md) |
+| **03** | Session 3: Excel Functions, Shortcuts, Dynamic Modeling & Protection | [session_03_excel_functions_and_tools](financial_modelling/session_03_excel_functions_and_tools/README.md) |
+| **04** | Session 4: Integrated 3-Statement Financial Modeling | [session_04_three_statement_model](financial_modelling/session_04_three_statement_model/README.md) |
+| **05** | Session 5: Financial Ratio Analysis & Performance Diagnostics | [session_05_ratio_analysis_modelling](financial_modelling/session_05_ratio_analysis_modelling/README.md) |
+| **06** | Session 6: Forecasting Methodologies & Revenue/Cost Schedules | [session_06_forecasting_methodologies](financial_modelling/session_06_forecasting_methodologies/README.md) |
+| **07** | Session 7: Discounted Cash Flow (DCF) Valuation Modeling | [session_07_dcf_excel_modelling](financial_modelling/session_07_dcf_excel_modelling/README.md) |
+| **08** | Session 8: Weighted Average Cost of Capital (WACC) Modeling - Part 1 | [session_08_wacc_modelling_part_1](financial_modelling/session_08_wacc_modelling_part_1/README.md) |
+| **09** | Session 9: What is Beta? Regression, Levering & Unlevering Beta | [session_09_wacc_modelling_beta_analysis](financial_modelling/session_09_wacc_modelling_beta_analysis/README.md) |
+| **10** | Session 10: WACC Modeling Part 3 - Cost of Debt, Terminal WACC & Hurdles | [session_10_wacc_modelling_part_3](financial_modelling/session_10_wacc_modelling_part_3/README.md) |
+| **11** | Session 11: Common-Size Statement Modeling & Structural Trend Analysis | [session_11_common_size_statements](financial_modelling/session_11_common_size_statements/README.md) |
+| **12** | Session 12: Sales Forecasting & Long-Term Growth Rate Mechanics | [session_12_growth_rate_mechanics](financial_modelling/session_12_growth_rate_mechanics/README.md) |
+| **13** | Session 13: Free Cash Flow to Firm (FCFF) vs FCFE Valuation Modeling | [session_13_dcf_fcff_fcfe_modelling](financial_modelling/session_13_dcf_fcff_fcfe_modelling/README.md) |
+| **14** | Session 14: Relative Valuation Modeling & Peer Comps Architecture | [session_14_relative_valuation_peer_multiples](financial_modelling/session_14_relative_valuation_peer_multiples/README.md) |
+| **15** | Session 15: Relative Valuation Practical Modeling & Multiples Analysis | [session_15_relative_valuation_practical_case](financial_modelling/session_15_relative_valuation_practical_case/README.md) |
+| **16** | Session 16: Sensitivity & Scenario Analysis Using 2-Way Data Tables | [session_16_sensitivity_analysis_modelling](financial_modelling/session_16_sensitivity_analysis_modelling/README.md) |
+| **17** | Session 17: Football Field Valuation Chart & Range Synthesis | [session_17_football_field_valuation](financial_modelling/session_17_football_field_valuation/README.md) |
+| **18** | Session 18: Investment Banking Financial Modeling Interview Case Study | [session_18_financial_modeling_interview_case](financial_modelling/session_18_financial_modeling_interview_case/README.md) |
+| **19** | Session 19: Value at Risk (VaR) Modeling in Excel | [session_19_value_at_risk_var_modelling](financial_modelling/session_19_value_at_risk_var_modelling/README.md) |
+| **20** | Session 20: DuPont Analysis Modeling - 3-Stage & 5-Stage Deconstruction (Part 1) | [session_20_dupont_analysis_modelling_part_1](financial_modelling/session_20_dupont_analysis_modelling_part_1/README.md) |
+| **21** | Session 21: DuPont Analysis Modeling - Practical Case Breakdown (Part 2) | [session_21_dupont_analysis_modelling_part_2](financial_modelling/session_21_dupont_analysis_modelling_part_2/README.md) |
+| **22** | Session 22: Altman Z-Score Modeling for Financial Distress & Solvency | [session_22_altman_z_score_distress_modelling](financial_modelling/session_22_altman_z_score_distress_modelling/README.md) |
+| **23** | Session 23: One-Page Institutional Company Profile Modeling (Part 1) | [session_23_one_page_company_profile_part_1](financial_modelling/session_23_one_page_company_profile_part_1/README.md) |
+| **24** | Session 24: One-Page Institutional Company Profile Modeling (Part 2) | [session_24_one_page_company_profile_part_2](financial_modelling/session_24_one_page_company_profile_part_2/README.md) |
+| **25** | Session 25: Master Excel Lookups - VLOOKUP, HLOOKUP, XLOOKUP & INDEX-MATCH | [session_25_excel_lookups_vlookup_hlookup_xlookup](financial_modelling/session_25_excel_lookups_vlookup_hlookup_xlookup/README.md) |
+| **26** | Session 26: Equity Research & Valuation Cohort Roadmap | [session_26_cohort_preview_equity_research](financial_modelling/session_26_cohort_preview_equity_research/README.md) |
+| **27** | Session 27: Introduction to Leveraged Buyout (LBO) Mechanics & PE Returns | [session_27_lbo_modelling_introduction](financial_modelling/session_27_lbo_modelling_introduction/README.md) |
+| **28** | Session 28: LBO Modeling in Excel from Scratch - Core Architecture | [session_28_lbo_modelling_excel_from_scratch](financial_modelling/session_28_lbo_modelling_excel_from_scratch/README.md) |
+| **29** | Session 29: LBO Modeling - Complex Deal Terms, Debt Tranches & Covenants | [session_29_lbo_modelling_complex_terms](financial_modelling/session_29_lbo_modelling_complex_terms/README.md) |
+| **30** | Session 30: LBO Modeling - Concept Modeling, Debt Paydown & Interest Waterfall | [session_30_lbo_modelling_concept_and_schedules](financial_modelling/session_30_lbo_modelling_concept_and_schedules/README.md) |
+| **31** | Session 31: LBO Modeling - PE Deal Sourcing Funnel & Screening | [session_31_lbo_modelling_deal_sourcing_funnel](financial_modelling/session_31_lbo_modelling_deal_sourcing_funnel/README.md) |
+| **32** | Session 32: LBO Due Diligence & Buy-Side Fundamental Quality Audit | [session_32_lbo_modelling_due_diligence](financial_modelling/session_32_lbo_modelling_due_diligence/README.md) |
+| **33** | Session 33: IPO Analysis Masterclass - Decoding DRHP, Valuation & Lenskart Case Study | [session_33_ipo_analysis_masterclass_lenskart](financial_modelling/session_33_ipo_analysis_masterclass_lenskart/README.md) |
+| **34** | Session 34: Advanced Valuation & Financial Modeling Career Roadmap | [session_34_advanced_valuation_cohort_roadmap](financial_modelling/session_34_advanced_valuation_cohort_roadmap/README.md) |
+
+---
+
+### 2. [Mutual Fund Analysis — Full Course (16 Sessions)](mutual_fund_analysis/)
 *Focuses on fund mechanics, SEBI market categorization, debt fund duration, XIRR vs CAGR, risk ratios (Sharpe, Treynor, Sortino), expense ratio math, and live portfolio teardowns.*
 
 | # | Session Topic | Link to Dossier |
@@ -36,12 +85,12 @@ An institutional-grade knowledge repository covering **Equity Research** and **M
 
 ---
 
-### 2. [Basics of Equity Research — Full Course (49 Sessions)](basics_of_equity_research/)
+### 3. [Basics of Equity Research — Full Course (49 Sessions)](basics_of_equity_research/)
 *Focuses on institutional equity research, business models, corporate governance, financial statement analysis, accounting forensics, and canonical literature.*
 
 | # | Session Topic | Link to Dossier |
 | :-: | :--- | :--- |
-| **01** | session_01_introduction | [session_01_introduction](basics_of_equity_research/session_01_introduction/README.md) |
+| **01** | Introduction & Course Orientation | [session_01_introduction](basics_of_equity_research/session_01_introduction/README.md) |
 | **02** | The Nature of Equity Research & Intrinsic Value Discovery | [session_02_what_is_equity_research](basics_of_equity_research/session_02_what_is_equity_research/README.md) |
 | **03** | Buy-Side vs Sell-Side Dynamics & Institutional Incentives | [session_03_buyside_vs_sellside](basics_of_equity_research/session_03_buyside_vs_sellside/README.md) |
 | **04** | Business Model Architecture & Economic Moat Analysis (Part 1) | [session_04_business_model_part_1](basics_of_equity_research/session_04_business_model_part_1/README.md) |
