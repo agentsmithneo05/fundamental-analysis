@@ -70,17 +70,30 @@ Every analysis must include an explicit **3-Scenario Financial Projection Model*
   - Enterprise Value (EV), Equity Value, and Fair Value per Share for each scenario.
   - Probability-Weighted Expected Intrinsic Value.
 
-### 7. Peer Benchmarking & Relative Comps Matrix
+### 7. Macroeconomic, Sector Lifecycle & Growth Boundary Analysis
+- **Corporate Lifecycle Stage Tag**:
+  - Classifying target into: *Stage 1: Startup Challenger*, *Stage 2: High Growth / Scaling*, *Stage 3: Mature Compounder / Quality Stalwart*, *Stage 4: Mature Stalwart / Macro Cyclical*, *Stage 5: Declining / Sunset*, or *Stage 6: Distressed*.
+  - Institutional rationale distinguishing high-margin compounders (e.g. Titan, Pidilite) from capital-heavy cyclicals (e.g. Tata Steel, JSW) and mega-cap stalwarts (e.g. Reliance O2C).
+- **The 'Law of Large Numbers' & Long-Term Multiplier Test**:
+  - Testing whether a 3x, 5x, or 10x expansion is mathematically possible over a 10–15 year horizon:
+    - *10x over 10 years* = 25.9% CAGR; *5x over 10 years* = 17.5% CAGR; *3x over 10 years* = 11.6% CAGR.
+  - Comparing Year-10 Implied Revenue against the Total Addressable Market (TAM). If Year-10 revenue exceeds realistic sector penetration (e.g. requiring a 50% national monopoly), growth MUST be capped.
+- **Macroeconomic Sensitivity & Commodity Beta Matrix**:
+  - Quantifying impact of global commodity shocks (crude oil, steel prices, gold lease rates, chemicals), interest rate tightening, FX (INR/USD), and customs/tariffs.
+- **Sector Breakthroughs & Next-Gen S-Curve Opportunities**:
+  - Identifying technological, geographic, or product breakthroughs that could unlock fresh multi-year growth vectors.
+
+### 8. Peer Benchmarking & Relative Comps Matrix
 - Comparing target company with listed sector leaders on EV/EBITDA, Normalized P/E, Price/Sales, Gross Margin %, EBITDA Margin %, and Working Capital Days.
 
-### 8. Valuation Synthesis & Institutional Capital Allocation Recommendation
+### 9. Valuation Synthesis & Institutional Capital Allocation Recommendation
 - **DCF Intrinsic Value & Exit Multiple Triangulation**: Explicit cash flow projections discounted at WACC + Terminal Value.
 - **Valuation Football Field Chart**: Visual comparison across 52-week range, IPO price, DCF value, and Comps fair value.
 - **Margin of Safety & Entry Point Calculation**:
   - Deducting a 20% to 35% margin of safety from Fair Value based on business predictability to define the exact **Accumulation / Entry Price Band**.
 - **Clear Actionable Verdict**: Conviction Buy, Neutral / Watchlist, or Avoid / High Risk.
 
-### 9. Modern Financial Times (FT.com) Style HTML Publishing
+### 10. Modern Financial Times (FT.com) Style HTML Publishing
 - Immediately following the generation of the Markdown report (`COMPANY_EQUITY_RESEARCH_REPORT.md`), compile an accompanying standalone HTML publication (`COMPANY_EQUITY_RESEARCH_REPORT.html`).
 - **Styling Standards (FT.com Origami Framework)**:
   - Iconic FT Pink/Salmon paper background (`#fff1e5` canvas with `#f7e6d7` outer frame and `#fff7ef` card surface).
@@ -108,11 +121,12 @@ When authoring an equity research dossier, always generate both the comprehensiv
 ## Part III: Things Identified in the DRHP / Prospectus
 ## Part IV: Red Flags Identified in the DRHP / Prospectus
 ## Part V: Multi-Year Financial Statement Deconstruction & Quality of Earnings (QoE)
-## Part VI: Dynamic Financial Modeling & 3-Scenario Growth Forecast (Base, Bull, Bear)
-## Part VII: Competitive Benchmarking & Relative Valuation Matrix
-## Part VIII: Comprehensive SWOT Analysis
-## Part IX: Senior Analyst Valuation, Football Field & Investment Recommendation
+## Part VI: Macroeconomic, Sector Lifecycle & Growth Boundary Analysis (Law of Large Numbers)
+## Part VII: Dynamic Financial Modeling & 3-Scenario Growth Forecast (Base, Bull, Bear)
+## Part VIII: Competitive Benchmarking & Relative Valuation Matrix
+## Part IX: Comprehensive SWOT Analysis
+## Part X: Senior Analyst Valuation, Football Field & Investment Recommendation
 ```
 Output files:
 - `reports/<company>/<COMPANY>_EQUITY_RESEARCH_REPORT.md` (Markdown dossier)
-- `reports/<company>/<COMPANY>_EQUITY_RESEARCH_REPORT.html` (Financial Newspaper edition)
+- `reports/<company>/<COMPANY>_EQUITY_RESEARCH_REPORT.html` (Financial Times HTML edition)

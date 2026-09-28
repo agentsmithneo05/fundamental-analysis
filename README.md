@@ -10,7 +10,8 @@ An institutional-grade knowledge repository covering **Financial Modeling & Valu
 fundamental_analysis/
 ├── README.md                          # Master curriculum & skills index
 ├── skills/                            # Institutional Equity Research & Financial Analysis Skills
-│   ├── equity_research_analyst/       # [Consolidated Master Skill] 7-Pillar Diligence & Modeling
+│   ├── equity_research_analyst/       # [Consolidated Master Skill] 10-Pillar Diligence, Macro & Modeling
+│   ├── macro_and_sector_lifecycle_analyst/ # [Specialized Skill] Macro Cycles, Stage Tagging & Law of Large Numbers
 │   ├── concall_interrogator/          # [Specialized Skill] Q&A Interrogation & Guidance Tracking
 │   ├── drhp_prospectus_auditor/       # [Specialized Skill] IPO Dilution, OFS & Objects of Offer
 │   ├── forensic_accounting_auditor/   # [Specialized Skill] Quality of Earnings (QoE) & Accrual Check
@@ -42,7 +43,8 @@ fundamental_analysis/
 
 | Skill Folder | Skill Name | Scope & Analytical Capabilities |
 | :--- | :--- | :--- |
-| [`skills/equity_research_analyst/`](skills/equity_research_analyst/SKILL.md) | **Equity Research Analyst** *(Consolidated Master)* | Complete institutional workflow: Business model, financial statement forensics, concall interrogation, DRHP audits, 3-scenario dynamic financial modeling, disciplined entry point derivation, and FT.com broadsheet HTML publishing. |
+| [`skills/equity_research_analyst/`](skills/equity_research_analyst/SKILL.md) | **Equity Research Analyst** *(Consolidated Master)* | Complete institutional workflow: Business model, financial statement forensics, concall interrogation, DRHP audits, macro & sector lifecycle classification, 3-scenario dynamic financial modeling, disciplined entry point derivation, and FT.com broadsheet HTML publishing. |
+| [`skills/macro_and_sector_lifecycle_analyst/`](skills/macro_and_sector_lifecycle_analyst/SKILL.md) | **Macro & Sector Lifecycle Analyst** *(Specialized)* | Macroeconomic cycles, 6-stage corporate lifecycle classification (Startup to Declining/Dead), Law of Large Numbers TAM ceiling test (3x/5x/10x feasibility), sector breakthroughs/S-curves, and commodity/macro beta mapping. |
 | [`skills/financial_newspaper_report_publisher/`](skills/financial_newspaper_report_publisher/SKILL.md) | **FT.com Report Publisher** *(Specialized)* | Compiles institutional equity research dossiers into standalone, single-file HTML documents styled with modern Financial Times (FT.com) Origami design (salmon paper #fff1e5, FT claret #990f3d, Playfair Display typography, tabular numerals, and print-ready CSS). |
 | [`skills/daily_market_mover_analyst/`](skills/daily_market_mover_analyst/SKILL.md) | **Daily Market Mover Analyst** *(Specialized)* | Dissecting top gainers/losers, earnings surprises, regulatory actions (USFDA, DGTR, SEBI), order wins, volume multipliers, deliverable %, RSI/VWAP metrics, sector spillovers, and tactical/contrarian verdicts. |
 | [`skills/concall_interrogator/`](skills/concall_interrogator/SKILL.md) | **Concall Interrogator** *(Specialized)* | Earnings call Q&A interrogation, pricing flip-flops, commodity shocks (TDI/Polyol), store payback elongation, and management evasiveness. |
